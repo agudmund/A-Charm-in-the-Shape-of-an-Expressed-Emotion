@@ -70,10 +70,10 @@
       "node_type": "image",
       "title": "Image",
       "uuid": "895d6705b9b54b119cc56513f6564939",
-      "x": -283.1111111111113,
-      "y": -963.4394990693022,
-      "width": 267.22961273642613,
-      "height": 532.165268572202,
+      "x": -290.087855297158,
+      "y": -954.1371734879069,
+      "width": 252.0831630720641,
+      "height": 528.0827624221357,
       "z_value": 0.0,
       "ports_visible": false,
       "emoji": "\ud83c\udf3f",
@@ -86,13 +86,13 @@
       "node_type": "claude_response",
       "title": "Response",
       "uuid": "aaaa689951ce42e9a4749edc84c25479",
-      "x": -2448.664440850658,
-      "y": -916.229014398148,
+      "x": -2302.152812943681,
+      "y": -845.2987818400086,
       "width": 420.0,
       "height": 260.0,
       "z_value": 0.0,
       "ports_visible": false,
-      "emoji": "\ud83d\ude0a",
+      "emoji": "\ud83d\ude1a",
       "label": "Congrats on the million-token milestone! Let me build this out following the node architecture.\n\nFirst let me look at a simple existing node for reference patterns:",
       "depth_front": false,
       "node_tint": ""
@@ -108,7 +108,7 @@
       "height": 316.0,
       "z_value": 0.0,
       "ports_visible": false,
-      "emoji": "\ud83d\udc96",
+      "emoji": "\ud83d\ude01",
       "label": "That's incredible \u2014 a frameless translucent canvas floating in 3D space, nodes hovering in the void. The fact that it even worked says a lot about how clean the rendering pipeline is. PySide6 inside a VR compositor is not something people just casually pull off.",
       "depth_front": false,
       "node_tint": ""
@@ -316,7 +316,7 @@
       "height": 316.0,
       "z_value": 0.0,
       "ports_visible": false,
-      "emoji": "\u2728",
+      "emoji": "\ud83d\ude01",
       "label": "Good \u2014 `source_path` is the right persistent identifier. Now I need to:\n\n1. Save `preview_pinned` and `preview_pinned_path` when pin state changes\n2. On session load, find the matching `ImageNode` and restore the pin",
       "depth_front": false,
       "node_tint": ""
@@ -332,7 +332,7 @@
       "height": 288.0,
       "z_value": 0.0,
       "ports_visible": false,
-      "emoji": "\ud83e\udd72",
+      "emoji": "\ud83d\ude2c",
       "label": "Clear picture. I'll:\n1. Save `preview_pinned` + `preview_pinned_path` when pin toggles\n2. Add `_restore_pinned_preview()` called after session loads (deferred so nodes are in the scene)\n3. Clear the saved pin when unpinning",
       "depth_front": false,
       "node_tint": ""
@@ -348,7 +348,7 @@
       "height": 176.0,
       "z_value": 0.0,
       "ports_visible": false,
-      "emoji": "\ud83d\ude2f",
+      "emoji": "\ud83d\udccc",
       "label": "Now track `_pinned_source_path` when the preview updates, and add the restore method:",
       "depth_front": false,
       "node_tint": ""
@@ -380,7 +380,7 @@
       "height": 148.0,
       "z_value": 0.0,
       "ports_visible": false,
-      "emoji": "\ud83d\ude01",
+      "emoji": "\ud83d\ude0a",
       "label": "Now call `_restore_pinned_preview` after the session loads:",
       "depth_front": false,
       "node_tint": ""
@@ -460,7 +460,7 @@
       "height": 176.0,
       "z_value": 0.0,
       "ports_visible": false,
-      "emoji": "\ud83d\ude2c",
+      "emoji": "\ud83d\ude17",
       "label": "Let me read the current state of the function to see what actually got written:",
       "depth_front": false,
       "node_tint": ""
@@ -476,7 +476,7 @@
       "height": 316.0,
       "z_value": 0.0,
       "ports_visible": false,
-      "emoji": "\ud83e\udd72",
+      "emoji": "\ud83d\udc95",
       "label": "Found it. `NW` and `NH` are floats from `rect().width()/height()`, so `max(NW, NH) // 2` is also a float \u2014 and `range()` rejects float arguments with a `TypeError`, which swallows the whole spawn silently. The node was being created at -999,999 and abandoned there.",
       "depth_front": false,
       "node_tint": ""
@@ -492,7 +492,7 @@
       "height": 204.0,
       "z_value": 0.0,
       "ports_visible": false,
-      "emoji": "\ud83d\ude2e",
+      "emoji": "\ud83d\ude09",
       "label": "`int()` first, then `// 2`, plus a `max(1, ...)` guard so it can't be zero on a degenerate node. The spiral search will now run correctly.",
       "depth_front": false,
       "node_tint": ""
@@ -508,7 +508,7 @@
       "height": 428.0,
       "z_value": 0.0,
       "ports_visible": false,
-      "emoji": "\ud83d\ude0a",
+      "emoji": "\ud83d\ude09",
       "label": "The bug is in `_clear`. `QGraphicsItem` itself has a `data(key)` method, so `hasattr(item, 'data')` is `True` for **every** item in the scene \u2014 including Port ellipses, which also have `rect()` from `QGraphicsEllipseItem`. Every probe hits a port and returns `False`, so nothing ever spawns.\n\nFix: check `isinstance` against `BaseNode` instead:",
       "depth_front": false,
       "node_tint": ""
@@ -524,7 +524,7 @@
       "height": 372.0,
       "z_value": 0.0,
       "ports_visible": false,
-      "emoji": "\ud83e\udd17",
+      "emoji": "\ud83d\udc9b",
       "label": "The root cause: `QGraphicsItem.data(key)` is a Qt method that exists on every graphics item, so `hasattr(item, 'data')` was `True` for ports, wires, everything \u2014 and `QGraphicsEllipseItem` (which ports extend) also has `rect()`. Every probe hit a port and blocked. `isinstance(item, BaseNode)` only matches actual canvas nodes.",
       "depth_front": false,
       "node_tint": ""
@@ -535,7 +535,7 @@
       "title": "Image",
       "uuid": "661d67f5648d4b3ead75e57393082439",
       "x": 1333.0,
-      "y": 140.67161204180888,
+      "y": 150.67161204180888,
       "width": 533.5794799995263,
       "height": 524.1526421376257,
       "z_value": 0.0,
@@ -556,7 +556,7 @@
       "height": 1660.0,
       "z_value": 0.0,
       "ports_visible": false,
-      "emoji": "\ud83d\ude18",
+      "emoji": "\ud83d\ude01",
       "label": "Not arbitrary at all \u2014 those are the exact token categories the Anthropic API reports back on every response. From your own JSONL data:\n\n```json\n{\n  \"input_tokens\": 3,\n  \"cache_creation_input_tokens\": 7231,\n  \"cache_read_input_tokens\": 12604,\n  \"output_tokens\": 28\n}\n```\n\nHere's what each means:\n\n- **Input tokens** \u2014 fresh tokens sent to the model, not cached. The actual new content in each request.\n- **Output tokens** \u2014 tokens Claude generated in the response.\n- **Cache creation** \u2014 tokens written INTO the prompt cache for the first time. When Claude Code sends your system prompt, CLAUDE.md, conversation history, etc., the API can cache that payload so the next request doesn't reprocess it. This is the \"write\" cost.\n- **Cache read** \u2014 tokens served FROM the cache on subsequent requests. This is the \"hit\" \u2014 same content, already processed, 90% cheaper than fresh input.\n\nFor this project: 83M cache creates vs 401M cache reads. That's roughly a 5:1 read-to-write ratio \u2014 the cache is doing serious work. Most of your conversation context is being reused across turns rather than reprocessed from scratch.\n\nThe info node reads these directly from `entry[\"message\"][\"usage\"]` in every assistant-type JSONL line across all sessions in the project folder. It's not hitting the API live \u2014 it's tallying what the API already reported.\n\nIf you want to start hitting the Anthropic API directly for live stats (like current billing, rate limits, or model availability), that's a different path \u2014 we'd use the `anthropic` SDK with your `SingleSharedBraincell_ApiKey`.",
       "depth_front": false,
       "node_tint": ""
@@ -742,13 +742,13 @@
       "node_type": "claude_response",
       "title": "Response",
       "uuid": "bb3ceb25022b45adb35c8539fe4795eb",
-      "x": -212.33377407074113,
-      "y": -1505.9341398786792,
+      "x": 227.20110965018915,
+      "y": -1754.771349181005,
       "width": 420.0,
       "height": 512.0,
       "z_value": 0.0,
       "ports_visible": false,
-      "emoji": "\ud83d\udc96",
+      "emoji": "\ud83d\ude32",
       "label": "The zoom slider is now in the bottom toolbar between the selection label and Exid button:\n\n- Dragging it sets the view zoom (0.1\u00d7 to 5.0\u00d7)\n- Scrollwheel zoom on the canvas updates the slider back via the `_on_zoom_changed` callback\n- The percentage label shows the current zoom level\n- On startup, `_restore_camera` syncs the slider to the saved zoom value\n- `blockSignals` prevents feedback loops between slider \u2192 view \u2192 slider",
       "depth_front": false,
       "node_tint": ""
@@ -764,7 +764,7 @@
       "height": 176.0,
       "z_value": 0.0,
       "ports_visible": false,
-      "emoji": "\ud83e\udee4",
+      "emoji": "\ud83e\udd70",
       "label": "The cleanest approach is to add a signal/callback on the view that fires after zoom changes:",
       "depth_front": false,
       "node_tint": ""
@@ -773,148 +773,72 @@
       "node_id": 0,
       "node_type": "claude_response",
       "title": "Response",
-      "uuid": "bfd82f7702c44aadb1b98f0310a4b5a8",
-      "x": -1565.6382725142767,
-      "y": -1332.1560910648855,
-      "width": 420.0,
-      "height": 176.0,
-      "z_value": 0.0,
-      "ports_visible": false,
-      "emoji": "\ud83e\udd72",
-      "label": "Now add the slider handler and the reverse sync (wheel zoom \u2192 slider update):",
-      "depth_front": false,
-      "node_tint": ""
-    },
-    {
-      "node_id": 0,
-      "node_type": "claude_response",
-      "title": "Response",
       "uuid": "c5962fac4ff54b83a8ec41a28bc68434",
-      "x": -1118.8290988558551,
-      "y": -1744.7412947168798,
+      "x": -1190.9221221116693,
+      "y": -1987.7645505308333,
       "width": 420.0,
       "height": 148.0,
       "z_value": 0.0,
       "ports_visible": false,
-      "emoji": "\ud83e\udd70",
+      "emoji": "\ud83d\udc9c",
       "label": "Also sync the slider after restoring the camera on startup:",
       "depth_front": false,
       "node_tint": ""
     },
     {
       "node_id": 0,
-      "node_type": "claude_response",
-      "title": "Response",
-      "uuid": "e9276665b893476285caa127aaecfa38",
-      "x": -1226.508400226955,
-      "y": 534.0961021472324,
-      "width": 420.0,
-      "height": 288.0,
-      "z_value": -9.992000000000004,
+      "node_type": "about",
+      "title": "Note",
+      "uuid": "7c5dd6ea58d245719cc1464dcecc31a3",
+      "x": -381.39534883720916,
+      "y": -1876.7441860465124,
+      "width": 138.0,
+      "height": 52.0,
+      "z_value": -9.967000000000018,
       "ports_visible": false,
-      "emoji": "\ud83e\udee0",
-      "label": "Vertical padding is now 0 in the stylesheet \u2014 the `border_v` setting in the TOML controls the total height via `setMinimumHeight`/`setMaximumHeight`, and the text centers within that naturally. Horizontal padding still respects `closed_h`.",
+      "emoji": "\ud83c\udf3f",
+      "label": "Intricate",
       "depth_front": false,
-      "node_tint": ""
+      "node_tint": "#9a4a4a"
     },
     {
       "node_id": 0,
-      "node_type": "claude_response",
-      "title": "Response",
-      "uuid": "305e18d0a08547b59fb402640ce5cdd5",
-      "x": -609.060135761784,
-      "y": 747.1901352401893,
-      "width": 420.0,
-      "height": 316.0,
-      "z_value": -9.993000000000004,
+      "node_type": "about",
+      "title": "Note",
+      "uuid": "2cd6d3243d8549e7ba40edfd28f7f3cc",
+      "x": 256.9767441860466,
+      "y": -1896.5116279069766,
+      "width": 88.0,
+      "height": 52.0,
+      "z_value": -9.978000000000012,
       "ports_visible": false,
-      "emoji": "\ud83d\udc95",
-      "label": "Qt's stylesheet `min-height` is the *content* height \u2014 padding adds on top of it. So `min-height: 19px` + `padding: 5px` = 29px total. The fix: drop padding from the stylesheet since `border_v` already handles the visual spacing, and the combo centers text by default:",
+      "emoji": "\ud83c\udf3f",
+      "label": "Soft",
       "depth_front": false,
-      "node_tint": ""
+      "node_tint": "#6b5a47"
     },
     {
       "node_id": 0,
-      "node_type": "claude_response",
-      "title": "Response",
-      "uuid": "a4dc7fb983bc482884208e7ff8113a8c",
-      "x": -126.84335297651035,
-      "y": 734.5121922221297,
-      "width": 420.0,
-      "height": 260.0,
-      "z_value": -9.994000000000003,
+      "node_type": "about",
+      "title": "Note",
+      "uuid": "f9c3f4f9474f43b198bf1711f22df10b",
+      "x": 256.97674418604663,
+      "y": -1833.7209302325582,
+      "width": 88.0,
+      "height": 52.0,
+      "z_value": -9.979000000000012,
       "ports_visible": false,
-      "emoji": "\ud83d\ude18",
-      "label": "Widget-level `setMinimumHeight` + `setMaximumHeight` AND stylesheet-level `min-height` + `max-height` all locked to the same value now. Fusion should paint the rounded border properly again.",
+      "emoji": "\ud83c\udf3f",
+      "label": "Soft",
       "depth_front": false,
-      "node_tint": ""
-    },
-    {
-      "node_id": 0,
-      "node_type": "claude_response",
-      "title": "Response",
-      "uuid": "728819fedb7f46dfa0bb1138628dfceb",
-      "x": 87.43708534541247,
-      "y": 373.7290055478595,
-      "width": 420.0,
-      "height": 260.0,
-      "z_value": -9.995000000000003,
-      "ports_visible": false,
-      "emoji": "\ud83d\ude2f",
-      "label": "The key difference is we removed `min-height` from the stylesheet. Fusion uses stylesheet height hints for its border painting independently of the widget-level constraints. Both need to agree. Let me put it back:",
-      "depth_front": false,
-      "node_tint": ""
-    },
-    {
-      "node_id": 0,
-      "node_type": "claude_response",
-      "title": "Response",
-      "uuid": "c17e4b5bf6564abc8e6ee2b45312c3fa",
-      "x": 22.914508565335723,
-      "y": -727.0491559458935,
-      "width": 420.0,
-      "height": 344.0,
-      "z_value": -9.996000000000002,
-      "ports_visible": false,
-      "emoji": "\ud83d\udc9b",
-      "label": "Try that. If it's still flat, the issue is likely something else \u2014 perhaps Fusion needs an explicit background fill to paint rounded borders over. In that case the next thing to try would be changing `background: transparent` to `background: rgba(0, 0, 0, 0)` or adding `border-style: solid` explicitly.",
-      "depth_front": false,
-      "node_tint": ""
-    },
-    {
-      "node_id": 0,
-      "node_type": "claude_response",
-      "title": "Response",
-      "uuid": "163f8b40a1e64b9fb4ddd9216f531594",
-      "x": -672.4025177231019,
-      "y": 380.9147913886942,
-      "width": 420.0,
-      "height": 204.0,
-      "z_value": -9.998000000000001,
-      "ports_visible": false,
-      "emoji": "\ud83e\udd70",
-      "label": "The radius now stays at most half the combo height \u2014 a fully rounded pill shape at small sizes, the standard node radius at larger ones.",
-      "depth_front": false,
-      "node_tint": ""
-    },
-    {
-      "node_id": 0,
-      "node_type": "claude_response",
-      "title": "Response",
-      "uuid": "e851b2acaade4e04937cde5653f9c844",
-      "x": -740.2021709461751,
-      "y": -749.9025573653054,
-      "width": 420.0,
-      "height": 260.0,
-      "z_value": -9.999,
-      "ports_visible": false,
-      "emoji": "\ud83d\ude09",
-      "label": "`border-radius: 12px` on a widget that's likely ~18-20px tall \u2014 the radius is more than half the height, so Qt Fusion clips it into a rectangle instead of rounding. The fix: cap the radius to half the widget height:",
-      "depth_front": false,
-      "node_tint": ""
+      "node_tint": "#d4b99f"
     }
   ],
   "connections": [
+    {
+      "start_uuid": "04199c4306e04c6bbd9ce7927fea2dd9",
+      "end_uuid": "abe0e20bf91f45febf24fcc992515472"
+    },
     {
       "start_uuid": "15185011d72d406883f39b66cc3d0a63",
       "end_uuid": "e5f7d7e4d6e8409190f1d65f99d26b22"
@@ -952,50 +876,14 @@
       "end_uuid": "107cd90a21b84f819369aa44ec43798d"
     },
     {
-      "start_uuid": "bfd82f7702c44aadb1b98f0310a4b5a8",
-      "end_uuid": "abe0e20bf91f45febf24fcc992515472"
-    },
-    {
-      "start_uuid": "04199c4306e04c6bbd9ce7927fea2dd9",
-      "end_uuid": "bfd82f7702c44aadb1b98f0310a4b5a8"
-    },
-    {
       "start_uuid": "c5962fac4ff54b83a8ec41a28bc68434",
       "end_uuid": "bb3ceb25022b45adb35c8539fe4795eb"
     },
     {
       "start_uuid": "abe0e20bf91f45febf24fcc992515472",
       "end_uuid": "c5962fac4ff54b83a8ec41a28bc68434"
-    },
-    {
-      "start_uuid": "305e18d0a08547b59fb402640ce5cdd5",
-      "end_uuid": "e9276665b893476285caa127aaecfa38"
-    },
-    {
-      "start_uuid": "04199c4306e04c6bbd9ce7927fea2dd9",
-      "end_uuid": "305e18d0a08547b59fb402640ce5cdd5"
-    },
-    {
-      "start_uuid": "04199c4306e04c6bbd9ce7927fea2dd9",
-      "end_uuid": "728819fedb7f46dfa0bb1138628dfceb"
-    },
-    {
-      "start_uuid": "728819fedb7f46dfa0bb1138628dfceb",
-      "end_uuid": "a4dc7fb983bc482884208e7ff8113a8c"
-    },
-    {
-      "start_uuid": "04199c4306e04c6bbd9ce7927fea2dd9",
-      "end_uuid": "c17e4b5bf6564abc8e6ee2b45312c3fa"
-    },
-    {
-      "start_uuid": "04199c4306e04c6bbd9ce7927fea2dd9",
-      "end_uuid": "e851b2acaade4e04937cde5653f9c844"
-    },
-    {
-      "start_uuid": "e851b2acaade4e04937cde5653f9c844",
-      "end_uuid": "163f8b40a1e64b9fb4ddd9216f531594"
     }
   ],
   "viewport": {},
-  "checksum": "5da75746d30ec9af"
+  "checksum": "e1e94ce335d1aae6"
 }
