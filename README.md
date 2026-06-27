@@ -1,4 +1,4 @@
-# A Charm in the shape of an Expressed Emotion
+# A Charm in the Shape of an Expressed Emotion
 
 > *The last of the charm in the shape of an expressed emotion slipped quietly off the screen, certain it belonged on a wall in a room it had never seen, For Enjoying*  
 > *Built using a single shared braincell by Yours Truly and various Intelligences*
