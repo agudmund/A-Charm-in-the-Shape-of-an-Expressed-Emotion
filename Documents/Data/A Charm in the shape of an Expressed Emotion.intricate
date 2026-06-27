@@ -44,16 +44,452 @@
     {
       "node_id": 0,
       "node_type": "warm",
-      "title": "Inner Peace",
-      "uuid": "44c59f228f47467ca088c6f3bad4386e",
-      "x": 10387.541292832477,
-      "y": 4397.950908211853,
+      "title": "Beautiful",
+      "uuid": "b9f1d89685e1462f9a4b1dfd772300e5",
+      "x": 12406.274366461577,
+      "y": 3560.651184450387,
       "width": 300.0,
       "height": 101.0,
-      "z_value": -9.956000000000024,
+      "z_value": -9.943000000000032,
       "ports_visible": false,
       "shelf_visible": true,
-      "body_text": "LTX Desktop is split into three main layers:"
+      "body_text": "Typecheck:"
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Intricate",
+      "uuid": "fbc3aeabe50b4019a798ca02be112fa7",
+      "x": 13646.740897373584,
+      "y": 3822.473752942154,
+      "width": 300.0,
+      "height": 206.0,
+      "z_value": -9.937000000000035,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "LTX Desktop collects minimal, anonymous usage analytics (app version, platform, and a random installation ID) to help prioritize development. No personal information or generated content is collected. Analytics is enabled by default and can be disabled in **Settings > General > Anonymous Analytics**. See [`TELEMETRY.md`](docs/TELEMETRY.md) for details."
+    },
+    {
+      "node_id": 0,
+      "node_type": "image",
+      "title": "Image",
+      "uuid": "2c81c97920894f45b50417509ddfbe81",
+      "x": 579.0,
+      "y": -90.32838795819114,
+      "width": 171.1786246637095,
+      "height": 234.13640577527593,
+      "z_value": 0.0,
+      "ports_visible": false,
+      "shelf_visible": false,
+      "image_b64": "",
+      "cache_key": "64fa83498e668dbef071e0aa03f23432a08983e34854f603707470a06eace8e7",
+      "caption": "Neon light outline female figure",
+      "source_path": "C:\\Users\\thisg\\Desktop\\A Charm in the shape of an Expressed Emotion\\Images\\downloadedImage.png",
+      "source_size": 513808,
+      "source_mtime": 1771066078.379549,
+      "show_border": true,
+      "depth_front": false
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Delicate",
+      "uuid": "868cd61edc774bc08468ad74f5a3da5f",
+      "x": 8295.434045912616,
+      "y": 3974.647505796281,
+      "width": 300.0,
+      "height": 146.0,
+      "z_value": -9.96300000000002,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "When you use API-backed features, prompts and media inputs are sent to the API service. Your API key is stored locally in your app data folder \u2014 treat it like a secret."
+    },
+    {
+      "node_id": 0,
+      "node_type": "image",
+      "title": "Image",
+      "uuid": "4cb902c9cff44d35b787dda4b64be5e0",
+      "x": 1963.0,
+      "y": 133.67161204180888,
+      "width": 298.0,
+      "height": 310.0,
+      "z_value": 0.0,
+      "ports_visible": false,
+      "shelf_visible": false,
+      "image_b64": "",
+      "cache_key": "28d9a3da153ae2e7c52081bf02e4a10a8e3276b9abec98817cf3597e5ad3fdc2",
+      "caption": "City skyline with light trails",
+      "source_path": "C:\\Users\\thisg\\Desktop\\A Charm in the shape of an Expressed Emotion\\Images\\downloadedImage (10).png",
+      "source_size": 2004582,
+      "source_mtime": 1771066851.5372534,
+      "show_border": true,
+      "depth_front": false
+    },
+    {
+      "node_id": 0,
+      "node_type": "image",
+      "title": "Image",
+      "uuid": "107cd90a21b84f819369aa44ec43798d",
+      "x": 825.0,
+      "y": -258.00000000000006,
+      "width": 484.9237696662973,
+      "height": 661.7015092954588,
+      "z_value": 0.0,
+      "ports_visible": false,
+      "shelf_visible": false,
+      "image_b64": "",
+      "cache_key": "ec50c4c301a940de468b0a7ebc65f11544c26e305a44b2e8bb9de7ec881ce3a4",
+      "caption": "Poem about digital stamps usage",
+      "source_path": "",
+      "source_size": 0,
+      "source_mtime": 0.0,
+      "show_border": true,
+      "depth_front": false
+    },
+    {
+      "node_id": 0,
+      "node_type": "claude_response",
+      "title": "Response",
+      "uuid": "654d8caf0a21459fb54a0a797cd66035",
+      "x": -999999.0,
+      "y": -999999.0,
+      "width": 420.0,
+      "height": 428.0,
+      "z_value": 0.0,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "label": "The bug is in `_clear`. `QGraphicsItem` itself has a `data(key)` method, so `hasattr(item, 'data')` is `True` for **every** item in the scene \u2014 including Port ellipses, which also have `rect()` from `QGraphicsEllipseItem`. Every probe hits a port and returns `False`, so nothing ever spawns.\n\nFix: check `isinstance` against `BaseNode` instead:",
+      "depth_front": false,
+      "node_tint": ""
+    },
+    {
+      "node_id": 0,
+      "node_type": "image",
+      "title": "Image",
+      "uuid": "b6b8c9d957eb496e99be3fa08a9310b7",
+      "x": 2625.1176470588234,
+      "y": -604.9166232523088,
+      "width": 359.2236300292325,
+      "height": 378.06769244526095,
+      "z_value": 0.0,
+      "ports_visible": false,
+      "shelf_visible": false,
+      "image_b64": "",
+      "cache_key": "c98e350354139cab6f92cfe689df4f160d2c40cbe3b6dc46fa0591dde6f5c5d4",
+      "caption": "Two abstract human figures light",
+      "source_path": "C:\\Users\\thisg\\Desktop\\A Charm in the shape of an Expressed Emotion\\Images\\downloadedImage (7).png",
+      "source_size": 1071160,
+      "source_mtime": 1771066639.4457555,
+      "show_border": true,
+      "depth_front": false
+    },
+    {
+      "node_id": 0,
+      "node_type": "image",
+      "title": "Image",
+      "uuid": "043f6cb69b5645e682c952d36362229e",
+      "x": 2247.705882352942,
+      "y": -739.2107408993676,
+      "width": 165.42595213754294,
+      "height": 310.6143144683534,
+      "z_value": 0.0,
+      "ports_visible": false,
+      "shelf_visible": false,
+      "image_b64": "",
+      "cache_key": "bee3b4b648f828a4e0c883505ad3bad82441fcdbd1aaecf489a1ebd21b5d7ab9",
+      "caption": "Abstract feminine figure with flowing lines",
+      "source_path": "C:\\Users\\thisg\\Desktop\\A Charm in the shape of an Expressed Emotion\\Images\\downloadedImage (4).png",
+      "source_size": 286692,
+      "source_mtime": 1771066128.383218,
+      "show_border": true,
+      "depth_front": false
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Growth",
+      "uuid": "ae20733519ca4233987f665f96334ade",
+      "x": 12483.677106381414,
+      "y": 3697.79196858785,
+      "width": 300.0,
+      "height": 116.0,
+      "z_value": -9.944000000000031,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "`dev:debug` starts Electron with inspector enabled and starts the Python backend with `debugpy`."
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Fresh Start",
+      "uuid": "db384f4047a34592b44b3bcfd7780471",
+      "x": 12384.170528619517,
+      "y": 4324.292698737792,
+      "width": 300.0,
+      "height": 131.0,
+      "z_value": -9.94500000000003,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "```bash\npnpm dev:debug\n```"
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Soft",
+      "uuid": "ab2a7b50a4854e35a7e4169ab70a0ff3",
+      "x": 12635.46851313626,
+      "y": 3971.8436391559453,
+      "width": 300.0,
+      "height": 101.0,
+      "z_value": -9.94600000000003,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "Debug:"
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Omnious",
+      "uuid": "6854502a14f1446c98ccf480e0c6da8a",
+      "x": 12401.318519508406,
+      "y": 3363.266188047545,
+      "width": 300.0,
+      "height": 131.0,
+      "z_value": -9.942000000000032,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "```bash\npnpm typecheck\n```"
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Clay",
+      "uuid": "0e91ebb3bb4945bda1689ac8d353ae54",
+      "x": 12913.589031667676,
+      "y": 3313.0420036007617,
+      "width": 300.0,
+      "height": 101.0,
+      "z_value": -9.941000000000033,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "Backend tests:"
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "All Glory",
+      "uuid": "5bca9d49d54449c59c66d1dd37470bfa",
+      "x": 12969.881102477244,
+      "y": 3072.7662646429026,
+      "width": 300.0,
+      "height": 131.0,
+      "z_value": -9.940000000000033,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "```bash\npnpm backend:test\n```"
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Elegant",
+      "uuid": "129d889475e74a2e9e652ee6f2500c26",
+      "x": 14436.981455740568,
+      "y": 4361.208279494085,
+      "width": 300.0,
+      "height": 101.0,
+      "z_value": -9.931000000000038,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "Apache-2.0 \u2014 see [`LICENSE.txt`](LICENSE.txt)."
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Beautiful",
+      "uuid": "670a53ca116345d589d4cdc443c1b55f",
+      "x": 12741.605825396657,
+      "y": 4160.338889911204,
+      "width": 300.0,
+      "height": 131.0,
+      "z_value": -9.94700000000003,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "```bash\npnpm dev\n```"
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Clear Vision",
+      "uuid": "2d8a3556911449fe8a35ae64a101269b",
+      "x": 14419.109462569475,
+      "y": 4570.894063176134,
+      "width": 300.0,
+      "height": 116.0,
+      "z_value": -9.930000000000039,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "Third-party notices (including model licenses/terms): [`NOTICES.md`](NOTICES.md)."
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Practical and pleasurable",
+      "uuid": "faf460ec40d944d7ac3cd7db06f049c8",
+      "x": 14779.578284885094,
+      "y": 4833.0064380962995,
+      "width": 300.0,
+      "height": 116.0,
+      "z_value": -9.92900000000004,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "Model weights are downloaded separately and may be governed by additional licenses/terms."
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Endless Potential",
+      "uuid": "d80e51c9482a41b99896ee493928bcc7",
+      "x": 12270.580964397719,
+      "y": 4584.577750497341,
+      "width": 300.0,
+      "height": 101.0,
+      "z_value": -9.948000000000029,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "Run:"
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Accurate",
+      "uuid": "4bfa76ab90094561a6f3e34f423155b0",
+      "x": 12528.02783738708,
+      "y": 5245.845678570369,
+      "width": 300.0,
+      "height": 101.0,
+      "z_value": -9.950000000000028,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "Setup:"
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Unfold",
+      "uuid": "8d15761e04fe4526ac6ec12bb28c7009",
+      "x": 12714.657651420972,
+      "y": 5076.640492210267,
+      "width": 300.0,
+      "height": 131.0,
+      "z_value": -9.949000000000028,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "```bash\npnpm setup:dev\n```"
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Pure Light",
+      "uuid": "f5b993d205d249eba5a2afb56c8d47ca",
+      "x": 14265.373877548127,
+      "y": 3999.0614804586457,
+      "width": 300.0,
+      "height": 176.0,
+      "z_value": -9.935000000000036,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "- [`INSTALLER.md`](docs/INSTALLER.md) \u2014 building installers\n- [`TELEMETRY.md`](docs/TELEMETRY.md) \u2014 telemetry and privacy\n- [`backend/architecture.md`](backend/architecture.md) \u2014 backend architecture"
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Onward",
+      "uuid": "cb83c8df4d424ecbaceead25ceccc5b1",
+      "x": 13404.596813553893,
+      "y": 3057.6843621531134,
+      "width": 300.0,
+      "height": 116.0,
+      "z_value": -9.939000000000034,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "Building installers:\n- See [`INSTALLER.md`](docs/INSTALLER.md)"
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Irresistible",
+      "uuid": "f2a7725fc39e4a878991ea63134b2bae",
+      "x": 13900.105014555256,
+      "y": 4154.2896535536875,
+      "width": 300.0,
+      "height": 101.0,
+      "z_value": -9.936000000000035,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "## Docs"
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Fresh Start",
+      "uuid": "ac40e19e2f3b4b549c7e7460bdc988f7",
+      "x": 13341.649859939678,
+      "y": 3474.8309445634986,
+      "width": 300.0,
+      "height": 101.0,
+      "z_value": -9.938000000000034,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "## Telemetry"
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Evolve",
+      "uuid": "449df25d540a444390910ebf8b1a3fef",
+      "x": 13986.41186075572,
+      "y": 3807.588995274431,
+      "width": 300.0,
+      "height": 116.0,
+      "z_value": -9.933000000000037,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "See [`CONTRIBUTING.md`](docs/CONTRIBUTING.md)."
+    },
+    {
+      "node_id": 0,
+      "node_type": "image",
+      "title": "Image",
+      "uuid": "661d67f5648d4b3ead75e57393082439",
+      "x": 1333.0,
+      "y": 150.67161204180888,
+      "width": 533.5794799995263,
+      "height": 524.1526421376257,
+      "z_value": 0.0,
+      "ports_visible": false,
+      "shelf_visible": false,
+      "image_b64": "",
+      "cache_key": "e14c1ff0309cd0a313e352b587e6407a16b8832b5b7d6a1343fc7b769097c82b",
+      "caption": "Heart light trails over cityscape",
+      "source_path": "C:\\Users\\thisg\\Desktop\\A Charm in the shape of an Expressed Emotion\\Images\\downloadedImage (6).png",
+      "source_size": 2046649,
+      "source_mtime": 1771066622.8866427,
+      "show_border": true,
+      "depth_front": false
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Accurate",
+      "uuid": "2fde0556ec284785aaa1a7d05500eeb4",
+      "x": 14330.369354351145,
+      "y": 3793.236233957921,
+      "width": 300.0,
+      "height": 101.0,
+      "z_value": -9.934000000000037,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "## Contributing"
     },
     {
       "node_id": 0,
@@ -100,6 +536,34 @@
     {
       "node_id": 0,
       "node_type": "warm",
+      "title": "Inner Peace",
+      "uuid": "44c59f228f47467ca088c6f3bad4386e",
+      "x": 10387.541292832477,
+      "y": 4397.950908211853,
+      "width": 300.0,
+      "height": 101.0,
+      "z_value": -9.956000000000024,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "LTX Desktop is split into three main layers:"
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Beautiful",
+      "uuid": "0fa9646d79e74df695695c78cd5da59a",
+      "x": 11973.68644095213,
+      "y": 5227.236385664533,
+      "width": 300.0,
+      "height": 146.0,
+      "z_value": -9.951000000000027,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "- Node.js\n- `uv` (Python package manager)\n- Python 3.12+\n- Git"
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
       "title": "Accurate",
       "uuid": "c0cb2de50e9d4986a57aa533b40e706b",
       "x": 11793.472682775197,
@@ -128,16 +592,16 @@
     {
       "node_id": 0,
       "node_type": "warm",
-      "title": "Beautiful",
-      "uuid": "0fa9646d79e74df695695c78cd5da59a",
-      "x": 11973.68644095213,
-      "y": 5227.236385664533,
+      "title": "Sweet",
+      "uuid": "cd1a1aef0ad14384bbe825af7c084214",
+      "x": 9666.613448912369,
+      "y": 4007.5470476399405,
       "width": 300.0,
-      "height": 146.0,
-      "z_value": -9.951000000000027,
+      "height": 101.0,
+      "z_value": -9.959000000000023,
       "ports_visible": false,
       "shelf_visible": true,
-      "body_text": "- Node.js\n- `uv` (Python package manager)\n- Python 3.12+\n- Git"
+      "body_text": "### Gemini API key (optional)"
     },
     {
       "node_id": 0,
@@ -156,20 +620,6 @@
     {
       "node_id": 0,
       "node_type": "warm",
-      "title": "Kinetic",
-      "uuid": "ace47d433f324add97cb00220379c102",
-      "x": 9211.533144520245,
-      "y": 4184.014308483858,
-      "width": 300.0,
-      "height": 116.0,
-      "z_value": -9.960000000000022,
-      "ports_visible": false,
-      "shelf_visible": true,
-      "body_text": "Create an API key in the [fal dashboard](https://fal.ai/dashboard/keys)."
-    },
-    {
-      "node_id": 0,
-      "node_type": "warm",
       "title": "New Thought",
       "uuid": "9bc3abf9aa4f4695bffef971521901ae",
       "x": 8594.980673049626,
@@ -184,16 +634,16 @@
     {
       "node_id": 0,
       "node_type": "warm",
-      "title": "Sweet",
-      "uuid": "cd1a1aef0ad14384bbe825af7c084214",
-      "x": 9666.613448912369,
-      "y": 4007.5470476399405,
+      "title": "Kinetic",
+      "uuid": "ace47d433f324add97cb00220379c102",
+      "x": 9211.533144520245,
+      "y": 4184.014308483858,
       "width": 300.0,
-      "height": 101.0,
-      "z_value": -9.959000000000023,
+      "height": 116.0,
+      "z_value": -9.960000000000022,
       "ports_visible": false,
       "shelf_visible": true,
-      "body_text": "### Gemini API key (optional)"
+      "body_text": "Create an API key in the [fal dashboard](https://fal.ai/dashboard/keys)."
     },
     {
       "node_id": 0,
@@ -225,371 +675,19 @@
     },
     {
       "node_id": 0,
-      "node_type": "warm",
-      "title": "Clear Vision",
-      "uuid": "2d8a3556911449fe8a35ae64a101269b",
-      "x": 14419.109462569475,
-      "y": 4570.894063176134,
-      "width": 300.0,
-      "height": 116.0,
-      "z_value": -9.930000000000039,
-      "ports_visible": false,
-      "shelf_visible": true,
-      "body_text": "Third-party notices (including model licenses/terms): [`NOTICES.md`](NOTICES.md)."
-    },
-    {
-      "node_id": 0,
-      "node_type": "warm",
-      "title": "Elegant",
-      "uuid": "129d889475e74a2e9e652ee6f2500c26",
-      "x": 14436.981455740568,
-      "y": 4361.208279494085,
-      "width": 300.0,
-      "height": 101.0,
-      "z_value": -9.931000000000038,
-      "ports_visible": false,
-      "shelf_visible": true,
-      "body_text": "Apache-2.0 \u2014 see [`LICENSE.txt`](LICENSE.txt)."
-    },
-    {
-      "node_id": 0,
-      "node_type": "warm",
-      "title": "Practical and pleasurable",
-      "uuid": "faf460ec40d944d7ac3cd7db06f049c8",
-      "x": 14779.578284885094,
-      "y": 4833.0064380962995,
-      "width": 300.0,
-      "height": 116.0,
-      "z_value": -9.92900000000004,
-      "ports_visible": false,
-      "shelf_visible": true,
-      "body_text": "Model weights are downloaded separately and may be governed by additional licenses/terms."
-    },
-    {
-      "node_id": 0,
-      "node_type": "warm",
-      "title": "Beautiful",
-      "uuid": "670a53ca116345d589d4cdc443c1b55f",
-      "x": 12741.605825396657,
-      "y": 4160.338889911204,
-      "width": 300.0,
-      "height": 131.0,
-      "z_value": -9.94700000000003,
-      "ports_visible": false,
-      "shelf_visible": true,
-      "body_text": "```bash\npnpm dev\n```"
-    },
-    {
-      "node_id": 0,
-      "node_type": "warm",
-      "title": "Unfold",
-      "uuid": "8d15761e04fe4526ac6ec12bb28c7009",
-      "x": 12714.657651420972,
-      "y": 5076.640492210267,
-      "width": 300.0,
-      "height": 131.0,
-      "z_value": -9.949000000000028,
-      "ports_visible": false,
-      "shelf_visible": true,
-      "body_text": "```bash\npnpm setup:dev\n```"
-    },
-    {
-      "node_id": 0,
-      "node_type": "warm",
-      "title": "Accurate",
-      "uuid": "4bfa76ab90094561a6f3e34f423155b0",
-      "x": 12528.02783738708,
-      "y": 5245.845678570369,
-      "width": 300.0,
-      "height": 101.0,
-      "z_value": -9.950000000000028,
-      "ports_visible": false,
-      "shelf_visible": true,
-      "body_text": "Setup:"
-    },
-    {
-      "node_id": 0,
-      "node_type": "warm",
-      "title": "Endless Potential",
-      "uuid": "d80e51c9482a41b99896ee493928bcc7",
-      "x": 12270.580964397719,
-      "y": 4584.577750497341,
-      "width": 300.0,
-      "height": 101.0,
-      "z_value": -9.948000000000029,
-      "ports_visible": false,
-      "shelf_visible": true,
-      "body_text": "Run:"
-    },
-    {
-      "node_id": 0,
-      "node_type": "warm",
-      "title": "Fresh Start",
-      "uuid": "db384f4047a34592b44b3bcfd7780471",
-      "x": 12384.170528619517,
-      "y": 4324.292698737792,
-      "width": 300.0,
-      "height": 131.0,
-      "z_value": -9.94500000000003,
-      "ports_visible": false,
-      "shelf_visible": true,
-      "body_text": "```bash\npnpm dev:debug\n```"
-    },
-    {
-      "node_id": 0,
-      "node_type": "warm",
-      "title": "Growth",
-      "uuid": "ae20733519ca4233987f665f96334ade",
-      "x": 12483.677106381414,
-      "y": 3697.79196858785,
-      "width": 300.0,
-      "height": 116.0,
-      "z_value": -9.944000000000031,
-      "ports_visible": false,
-      "shelf_visible": true,
-      "body_text": "`dev:debug` starts Electron with inspector enabled and starts the Python backend with `debugpy`."
-    },
-    {
-      "node_id": 0,
-      "node_type": "warm",
-      "title": "Soft",
-      "uuid": "ab2a7b50a4854e35a7e4169ab70a0ff3",
-      "x": 12635.46851313626,
-      "y": 3971.8436391559453,
-      "width": 300.0,
-      "height": 101.0,
-      "z_value": -9.94600000000003,
-      "ports_visible": false,
-      "shelf_visible": true,
-      "body_text": "Debug:"
-    },
-    {
-      "node_id": 0,
-      "node_type": "warm",
-      "title": "Clay",
-      "uuid": "0e91ebb3bb4945bda1689ac8d353ae54",
-      "x": 12913.589031667676,
-      "y": 3313.0420036007617,
-      "width": 300.0,
-      "height": 101.0,
-      "z_value": -9.941000000000033,
-      "ports_visible": false,
-      "shelf_visible": true,
-      "body_text": "Backend tests:"
-    },
-    {
-      "node_id": 0,
-      "node_type": "warm",
-      "title": "Omnious",
-      "uuid": "6854502a14f1446c98ccf480e0c6da8a",
-      "x": 12401.318519508406,
-      "y": 3363.266188047545,
-      "width": 300.0,
-      "height": 131.0,
-      "z_value": -9.942000000000032,
-      "ports_visible": false,
-      "shelf_visible": true,
-      "body_text": "```bash\npnpm typecheck\n```"
-    },
-    {
-      "node_id": 0,
-      "node_type": "warm",
-      "title": "All Glory",
-      "uuid": "5bca9d49d54449c59c66d1dd37470bfa",
-      "x": 12969.881102477244,
-      "y": 3072.7662646429026,
-      "width": 300.0,
-      "height": 131.0,
-      "z_value": -9.940000000000033,
-      "ports_visible": false,
-      "shelf_visible": true,
-      "body_text": "```bash\npnpm backend:test\n```"
-    },
-    {
-      "node_id": 0,
-      "node_type": "warm",
-      "title": "Beautiful",
-      "uuid": "b9f1d89685e1462f9a4b1dfd772300e5",
-      "x": 12406.274366461577,
-      "y": 3560.651184450387,
-      "width": 300.0,
-      "height": 101.0,
-      "z_value": -9.943000000000032,
-      "ports_visible": false,
-      "shelf_visible": true,
-      "body_text": "Typecheck:"
-    },
-    {
-      "node_id": 0,
-      "node_type": "warm",
-      "title": "Intricate",
-      "uuid": "fbc3aeabe50b4019a798ca02be112fa7",
-      "x": 13646.740897373584,
-      "y": 3822.473752942154,
-      "width": 300.0,
-      "height": 206.0,
-      "z_value": -9.937000000000035,
-      "ports_visible": false,
-      "shelf_visible": true,
-      "body_text": "LTX Desktop collects minimal, anonymous usage analytics (app version, platform, and a random installation ID) to help prioritize development. No personal information or generated content is collected. Analytics is enabled by default and can be disabled in **Settings > General > Anonymous Analytics**. See [`TELEMETRY.md`](docs/TELEMETRY.md) for details."
-    },
-    {
-      "node_id": 0,
-      "node_type": "warm",
-      "title": "Fresh Start",
-      "uuid": "ac40e19e2f3b4b549c7e7460bdc988f7",
-      "x": 13341.649859939678,
-      "y": 3474.8309445634986,
-      "width": 300.0,
-      "height": 101.0,
-      "z_value": -9.938000000000034,
-      "ports_visible": false,
-      "shelf_visible": true,
-      "body_text": "## Telemetry"
-    },
-    {
-      "node_id": 0,
-      "node_type": "warm",
-      "title": "Onward",
-      "uuid": "cb83c8df4d424ecbaceead25ceccc5b1",
-      "x": 13404.596813553893,
-      "y": 3057.6843621531134,
-      "width": 300.0,
-      "height": 116.0,
-      "z_value": -9.939000000000034,
-      "ports_visible": false,
-      "shelf_visible": true,
-      "body_text": "Building installers:\n- See [`INSTALLER.md`](docs/INSTALLER.md)"
-    },
-    {
-      "node_id": 0,
-      "node_type": "warm",
-      "title": "Pure Light",
-      "uuid": "f5b993d205d249eba5a2afb56c8d47ca",
-      "x": 14265.373877548127,
-      "y": 3999.0614804586457,
-      "width": 300.0,
-      "height": 176.0,
-      "z_value": -9.935000000000036,
-      "ports_visible": false,
-      "shelf_visible": true,
-      "body_text": "- [`INSTALLER.md`](docs/INSTALLER.md) \u2014 building installers\n- [`TELEMETRY.md`](docs/TELEMETRY.md) \u2014 telemetry and privacy\n- [`backend/architecture.md`](backend/architecture.md) \u2014 backend architecture"
-    },
-    {
-      "node_id": 0,
-      "node_type": "warm",
-      "title": "Irresistible",
-      "uuid": "f2a7725fc39e4a878991ea63134b2bae",
-      "x": 13900.105014555256,
-      "y": 4154.2896535536875,
-      "width": 300.0,
-      "height": 101.0,
-      "z_value": -9.936000000000035,
-      "ports_visible": false,
-      "shelf_visible": true,
-      "body_text": "## Docs"
-    },
-    {
-      "node_id": 0,
-      "node_type": "warm",
-      "title": "Evolve",
-      "uuid": "449df25d540a444390910ebf8b1a3fef",
-      "x": 13986.41186075572,
-      "y": 3807.588995274431,
-      "width": 300.0,
-      "height": 116.0,
-      "z_value": -9.933000000000037,
-      "ports_visible": false,
-      "shelf_visible": true,
-      "body_text": "See [`CONTRIBUTING.md`](docs/CONTRIBUTING.md)."
-    },
-    {
-      "node_id": 0,
-      "node_type": "warm",
-      "title": "Accurate",
-      "uuid": "2fde0556ec284785aaa1a7d05500eeb4",
-      "x": 14330.369354351145,
-      "y": 3793.236233957921,
-      "width": 300.0,
-      "height": 101.0,
-      "z_value": -9.934000000000037,
-      "ports_visible": false,
-      "shelf_visible": true,
-      "body_text": "## Contributing"
-    },
-    {
-      "node_id": 0,
-      "node_type": "image",
-      "title": "Image",
-      "uuid": "661d67f5648d4b3ead75e57393082439",
-      "x": 1333.0,
-      "y": 150.67161204180888,
-      "width": 533.5794799995263,
-      "height": 524.1526421376257,
-      "z_value": 0.0,
-      "ports_visible": false,
-      "shelf_visible": false,
-      "image_b64": "",
-      "cache_key": "e14c1ff0309cd0a313e352b587e6407a16b8832b5b7d6a1343fc7b769097c82b",
-      "caption": "Heart light trails over cityscape",
-      "source_path": "C:\\Users\\thisg\\Desktop\\A Charm in the shape of an Expressed Emotion\\Images\\downloadedImage (6).png",
-      "source_size": 2046649,
-      "source_mtime": 1771066622.8866427,
-      "show_border": true,
-      "depth_front": false
-    },
-    {
-      "node_id": 0,
-      "node_type": "claude_response",
-      "title": "Response",
-      "uuid": "3df3a6200355419a8958f37cce45bee2",
-      "x": -999999.0,
-      "y": -999999.0,
-      "width": 420.0,
-      "height": 372.0,
-      "z_value": 0.0,
-      "ports_visible": false,
-      "shelf_visible": true,
-      "label": "The root cause: `QGraphicsItem.data(key)` is a Qt method that exists on every graphics item, so `hasattr(item, 'data')` was `True` for ports, wires, everything \u2014 and `QGraphicsEllipseItem` (which ports extend) also has `rect()`. Every probe hit a port and blocked. `isinstance(item, BaseNode)` only matches actual canvas nodes.",
-      "depth_front": false,
-      "node_tint": ""
-    },
-    {
-      "node_id": 0,
       "node_type": "about",
-      "title": "That's not a node editor.  That is a new medium",
-      "uuid": "178a80cd90644c24b3d00c2f7afa8ce1",
-      "x": -1025.4099562839324,
-      "y": 49.96339647876454,
-      "width": 501.0545528166878,
-      "height": 30.601315281210645,
+      "title": "A Frameless infinate canvas with nodes that breathe and whisper to each other",
+      "uuid": "f9d2c2f89074402f9efd92a555d6e6ca",
+      "x": -1315.7896049784379,
+      "y": -634.337921311078,
+      "width": 803.45126000055,
+      "height": 31.11660621940112,
       "z_value": 0.0,
       "ports_visible": false,
       "shelf_visible": false,
-      "label": "That's not a node editor.  That is a new medium",
+      "label": "A Frameless infinate canvas with nodes that breathe and whisper to each other",
       "depth_front": false,
       "node_tint": ""
-    },
-    {
-      "node_id": 0,
-      "node_type": "image",
-      "title": "Image",
-      "uuid": "81cb70c492824161a092cad27eefe49f",
-      "x": 1478.0,
-      "y": -687.0,
-      "width": 535.1572055385407,
-      "height": 794.7250681078763,
-      "z_value": 0.0,
-      "ports_visible": false,
-      "shelf_visible": false,
-      "image_b64": "",
-      "cache_key": "181d9adb0dd2b77291f45b3a63ff04e119d94d6c829cfc858917c85ba234e5f1",
-      "caption": "Crystal Clear",
-      "source_path": "C:\\Users\\thisg\\Desktop\\A Charm in the shape of an Expressed Emotion\\Crystal Clear.png",
-      "source_size": 253125,
-      "source_mtime": 1741197629.3153777,
-      "show_border": true,
-      "depth_front": false
     },
     {
       "node_id": 0,
@@ -635,136 +733,22 @@
     },
     {
       "node_id": 0,
-      "node_type": "about",
-      "title": "A Frameless infinate canvas with nodes that breathe and whisper to each other",
-      "uuid": "f9d2c2f89074402f9efd92a555d6e6ca",
-      "x": -1315.7896049784379,
-      "y": -634.337921311078,
-      "width": 803.45126000055,
-      "height": 31.11660621940112,
-      "z_value": 0.0,
-      "ports_visible": false,
-      "shelf_visible": false,
-      "label": "A Frameless infinate canvas with nodes that breathe and whisper to each other",
-      "depth_front": false,
-      "node_tint": ""
-    },
-    {
-      "node_id": 0,
-      "node_type": "warm",
-      "title": "Delicate",
-      "uuid": "868cd61edc774bc08468ad74f5a3da5f",
-      "x": 8295.434045912616,
-      "y": 3974.647505796281,
-      "width": 300.0,
-      "height": 146.0,
-      "z_value": -9.96300000000002,
-      "ports_visible": false,
-      "shelf_visible": true,
-      "body_text": "When you use API-backed features, prompts and media inputs are sent to the API service. Your API key is stored locally in your app data folder \u2014 treat it like a secret."
-    },
-    {
-      "node_id": 0,
       "node_type": "image",
       "title": "Image",
-      "uuid": "2c81c97920894f45b50417509ddfbe81",
-      "x": 579.0,
-      "y": -90.32838795819114,
-      "width": 171.1786246637095,
-      "height": 234.13640577527593,
+      "uuid": "81cb70c492824161a092cad27eefe49f",
+      "x": 1478.0,
+      "y": -687.0,
+      "width": 535.1572055385407,
+      "height": 794.7250681078763,
       "z_value": 0.0,
       "ports_visible": false,
       "shelf_visible": false,
       "image_b64": "",
-      "cache_key": "64fa83498e668dbef071e0aa03f23432a08983e34854f603707470a06eace8e7",
-      "caption": "Neon light outline female figure",
-      "source_path": "C:\\Users\\thisg\\Desktop\\A Charm in the shape of an Expressed Emotion\\Images\\downloadedImage.png",
-      "source_size": 513808,
-      "source_mtime": 1771066078.379549,
-      "show_border": true,
-      "depth_front": false
-    },
-    {
-      "node_id": 0,
-      "node_type": "image",
-      "title": "Image",
-      "uuid": "4cb902c9cff44d35b787dda4b64be5e0",
-      "x": 1963.0,
-      "y": 133.67161204180888,
-      "width": 298.0,
-      "height": 310.0,
-      "z_value": 0.0,
-      "ports_visible": false,
-      "shelf_visible": false,
-      "image_b64": "",
-      "cache_key": "28d9a3da153ae2e7c52081bf02e4a10a8e3276b9abec98817cf3597e5ad3fdc2",
-      "caption": "City skyline with light trails",
-      "source_path": "C:\\Users\\thisg\\Desktop\\A Charm in the shape of an Expressed Emotion\\Images\\downloadedImage (10).png",
-      "source_size": 2004582,
-      "source_mtime": 1771066851.5372534,
-      "show_border": true,
-      "depth_front": false
-    },
-    {
-      "node_id": 0,
-      "node_type": "image",
-      "title": "Image",
-      "uuid": "107cd90a21b84f819369aa44ec43798d",
-      "x": 825.0,
-      "y": -258.00000000000006,
-      "width": 484.9237696662973,
-      "height": 661.7015092954588,
-      "z_value": 0.0,
-      "ports_visible": false,
-      "shelf_visible": false,
-      "image_b64": "",
-      "cache_key": "ec50c4c301a940de468b0a7ebc65f11544c26e305a44b2e8bb9de7ec881ce3a4",
-      "caption": "Poem about digital stamps usage",
-      "source_path": "",
-      "source_size": 0,
-      "source_mtime": 0.0,
-      "show_border": true,
-      "depth_front": false
-    },
-    {
-      "node_id": 0,
-      "node_type": "image",
-      "title": "Image",
-      "uuid": "043f6cb69b5645e682c952d36362229e",
-      "x": 2247.705882352942,
-      "y": -739.2107408993676,
-      "width": 165.42595213754294,
-      "height": 310.6143144683534,
-      "z_value": 0.0,
-      "ports_visible": false,
-      "shelf_visible": false,
-      "image_b64": "",
-      "cache_key": "bee3b4b648f828a4e0c883505ad3bad82441fcdbd1aaecf489a1ebd21b5d7ab9",
-      "caption": "Abstract feminine figure with flowing lines",
-      "source_path": "C:\\Users\\thisg\\Desktop\\A Charm in the shape of an Expressed Emotion\\Images\\downloadedImage (4).png",
-      "source_size": 286692,
-      "source_mtime": 1771066128.383218,
-      "show_border": true,
-      "depth_front": false
-    },
-    {
-      "node_id": 0,
-      "node_type": "image",
-      "title": "Image",
-      "uuid": "b6b8c9d957eb496e99be3fa08a9310b7",
-      "x": 2625.1176470588234,
-      "y": -604.9166232523088,
-      "width": 359.2236300292325,
-      "height": 378.06769244526095,
-      "z_value": 0.0,
-      "ports_visible": false,
-      "shelf_visible": false,
-      "image_b64": "",
-      "cache_key": "c98e350354139cab6f92cfe689df4f160d2c40cbe3b6dc46fa0591dde6f5c5d4",
-      "caption": "Two abstract human figures light",
-      "source_path": "C:\\Users\\thisg\\Desktop\\A Charm in the shape of an Expressed Emotion\\Images\\downloadedImage (7).png",
-      "source_size": 1071160,
-      "source_mtime": 1771066639.4457555,
+      "cache_key": "181d9adb0dd2b77291f45b3a63ff04e119d94d6c829cfc858917c85ba234e5f1",
+      "caption": "Crystal Clear",
+      "source_path": "C:\\Users\\thisg\\Desktop\\A Charm in the shape of an Expressed Emotion\\Crystal Clear.png",
+      "source_size": 253125,
+      "source_mtime": 1741197629.3153777,
       "show_border": true,
       "depth_front": false
     },
@@ -772,17 +756,357 @@
       "node_id": 0,
       "node_type": "claude_response",
       "title": "Response",
-      "uuid": "654d8caf0a21459fb54a0a797cd66035",
+      "uuid": "3df3a6200355419a8958f37cce45bee2",
       "x": -999999.0,
       "y": -999999.0,
       "width": 420.0,
-      "height": 428.0,
+      "height": 372.0,
       "z_value": 0.0,
       "ports_visible": false,
       "shelf_visible": true,
-      "label": "The bug is in `_clear`. `QGraphicsItem` itself has a `data(key)` method, so `hasattr(item, 'data')` is `True` for **every** item in the scene \u2014 including Port ellipses, which also have `rect()` from `QGraphicsEllipseItem`. Every probe hits a port and returns `False`, so nothing ever spawns.\n\nFix: check `isinstance` against `BaseNode` instead:",
+      "label": "The root cause: `QGraphicsItem.data(key)` is a Qt method that exists on every graphics item, so `hasattr(item, 'data')` was `True` for ports, wires, everything \u2014 and `QGraphicsEllipseItem` (which ports extend) also has `rect()`. Every probe hit a port and blocked. `isinstance(item, BaseNode)` only matches actual canvas nodes.",
       "depth_front": false,
       "node_tint": ""
+    },
+    {
+      "node_id": 0,
+      "node_type": "about",
+      "title": "That's not a node editor.  That is a new medium",
+      "uuid": "178a80cd90644c24b3d00c2f7afa8ce1",
+      "x": -1025.4099562839324,
+      "y": 49.96339647876454,
+      "width": 501.0545528166878,
+      "height": 30.601315281210645,
+      "z_value": 0.0,
+      "ports_visible": false,
+      "shelf_visible": false,
+      "label": "That's not a node editor.  That is a new medium",
+      "depth_front": false,
+      "node_tint": ""
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "--- name: many-claudes-disambiguate description: \"The user",
+      "uuid": "dbd235f502c0487488211c459e8a2efa",
+      "x": -1620.2738877070478,
+      "y": 1733.296414751736,
+      "width": 593.0,
+      "height": 161.0,
+      "z_value": -9.92800000000004,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "  Runs several distinct Claude implementations, (almost) all just named \\\"Claude\\\" \u2014 when a request says \\\"Claude\\\"/\\\"the proofreader\\\"/\\\"ClaudeNode\\\", confirm WHICH one before acting\" metadata: node_type: memory type: user originSessionId: 85bb8623-2c0a-4983-8613-5c167d7def0d hook: | - [Many Claudes \u2014 check which one](user_many_claudes_disambiguate.md) \u2014 several distinct Claudes, nearly all named \"Claude\"; confirm which is meant before acting ---"
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "The user runs several distinct Claude implementations",
+      "uuid": "a74fbf6b11b241849a962450bdaa4caa",
+      "x": -1704.340177205188,
+      "y": 1515.064408618291,
+      "width": 545.0,
+      "height": 131.0,
+      "z_value": -9.92700000000004,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "  And by deliberate naming convention they are (almost) all just called \"Claude\" \u2014 so terminology collisions are routine, not sloppiness. When a request names \"Claude\", \"the proofreader\", \"ClaudeNode\", etc., and more than one could fit, confirm WHICH one is meant before acting."
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "> \"the most productive kitchen in the world is catching up",
+      "uuid": "30e50558ef5144dfa082305f5069227d",
+      "x": -513.5329434770294,
+      "y": 2512.3725290862894,
+      "width": 592.0,
+      "height": 101.0,
+      "z_value": -9.913000000000048,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "  To all the orders, we need to go faster\""
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Delicate",
+      "uuid": "9617ed795c6f4f668807eb9badab1e39",
+      "x": 6625.52776701575,
+      "y": 3404.739045464637,
+      "width": 300.0,
+      "height": 116.0,
+      "z_value": -9.971000000000016,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "Text encoding: to generate videos you must configure text encoding:"
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Practical and pleasurable",
+      "uuid": "f6b5030ab894417f8001cc28d44e45fe",
+      "x": 6469.3805826850385,
+      "y": 4107.430195809584,
+      "width": 300.0,
+      "height": 251.0,
+      "z_value": -9.970000000000017,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "- **LTX API key** (cloud text encoding) \u2014 **text encoding via the API is completely FREE** and highly recommended to speed up inference and save memory. Generate a free API key at the [LTX Console](https://console.ltx.video/). [Read more](https://ltx.io/model/model-blog/ltx-2-better-control-for-real-workflows).\n- **Local Text Encoder** (extra download; enables fully-local operation on supported Windows hardware) \u2014 if you don't wish to generate an API key, you can encode text locally via the settings menu."
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Sweet",
+      "uuid": "e08d161510e047078c6639a386064287",
+      "x": 6270.564988157874,
+      "y": 3220.732740229095,
+      "width": 300.0,
+      "height": 131.0,
+      "z_value": -9.972000000000016,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "On first launch you may be prompted to review/accept model license terms (license text is fetched from Hugging Face; requires internet)."
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Accurate",
+      "uuid": "bd23f10f2d3b4111ae4800b056369433",
+      "x": 6950.923668152818,
+      "y": 4312.849529347785,
+      "width": 300.0,
+      "height": 101.0,
+      "z_value": -9.969000000000017,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "## API keys, cost, and privacy"
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Golden Hour",
+      "uuid": "2b9fe4fe60864d049196aff9e7ad0445",
+      "x": 1678.4552889138918,
+      "y": 1138.2582300518545,
+      "width": 300.0,
+      "height": 146.0,
+      "z_value": -9.995000000000003,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "LTX Desktop is an open-source desktop app for generating videos with LTX models \u2014 locally on supported Windows/Linux NVIDIA GPUs, with an API mode for unsupported hardware and macOS."
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Distinct ones surfaced so far: - ClaudeNode: the",
+      "uuid": "5da29630c9144c069c52aec9c9176843",
+      "x": -778.3437680944924,
+      "y": 1791.8313882378654,
+      "width": 497.0,
+      "height": 176.0,
+      "z_value": -9.926000000000041,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "  In-Intricate, sidebar-loadable node; a file-parser over the local .claude transcripts (see [[claudenode-is-file-parser]]). Not an API chat. - The proofreader \u2014 a separate Claude implementation for writing analysis (rules in shared_braincell). It IS a core feature of The Majestic (which is part of Intricate) \u2014 do NOT treat it as isolated-from-Intricate; that framing was an earlier misread. - Sakura Claude \u2014 at least this one carries a distinguishing name. - ...and more; assume the roster grows."
+    },
+    {
+      "node_id": 0,
+      "node_type": "image",
+      "title": "Image",
+      "uuid": "d2759a3e3b7a434ca41af41ea7e3c63d",
+      "x": 2049.235294117647,
+      "y": -263.62250560524984,
+      "width": 120.0,
+      "height": 229.0,
+      "z_value": 0.0,
+      "ports_visible": false,
+      "shelf_visible": false,
+      "image_b64": "",
+      "cache_key": "f7c038d68bd711255cf8ee823d69c77aac5310845498a5e0503af925cec47034",
+      "caption": "Woman silhouette with heart shape",
+      "source_path": "C:\\Users\\thisg\\Desktop\\A Charm in the shape of an Expressed Emotion\\Images\\downloadedImage (1).png",
+      "source_size": 214207,
+      "source_mtime": 1771066247.9638052,
+      "show_border": true,
+      "depth_front": false
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Why (the user, June 24th 2026)",
+      "uuid": "9da7d4dad0ac441187071d271203aeea",
+      "x": -932.666512320045,
+      "y": 1507.5150596345331,
+      "width": 321.0,
+      "height": 221.0,
+      "z_value": -9.925000000000042,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "  A deliberate life-approach, not laziness \u2014 every Claude is\nnamed Claude, every Arduino is named Lily ([[arduinos-named-lily]]), and the user\nrefers to multiple real brothers as \"my brother\" (singular) and any ex as \"my ex\": drawing\nthe distinction feels rude. Same convention across software, hardware, and life. See\n[[naming-as-memory-system]]."
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Endless Potential",
+      "uuid": "6c758e51f28f415aaab29e2f4df1832a",
+      "x": 7650.954172668716,
+      "y": 4558.863566449706,
+      "width": 300.0,
+      "height": 101.0,
+      "z_value": -9.967000000000018,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "The LTX API is used for:"
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Becoming Yours",
+      "uuid": "1c9bf303cca94f6ba76ecdd547c350f9",
+      "x": 7913.6723717006935,
+      "y": 4225.353725954641,
+      "width": 300.0,
+      "height": 176.0,
+      "z_value": -9.966000000000019,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "- **Cloud text encoding and prompt enhancement** \u2014 **FREE**; text encoding is highly recommended to speed up inference and save memory\n- API-based video generations (required on macOS and on unsupported Windows hardware) \u2014 paid\n- Retake \u2014 paid"
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Elegant",
+      "uuid": "e2154536ca1b4a82950f1f097e889eab",
+      "x": 1466.802210956204,
+      "y": 888.1564149005349,
+      "width": 300.0,
+      "height": 176.0,
+      "z_value": -9.989000000000006,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "- Text-to-video generation\n- Image-to-video generation\n- Audio-to-video generation\n- Video edit generation (Retake)\n- Video Editor Interface\n- Video Editing Projects"
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Becoming Yours",
+      "uuid": "42c01d506845493e921e1e77387ae35a",
+      "x": 7919.837484094808,
+      "y": 3966.09380989531,
+      "width": 300.0,
+      "height": 161.0,
+      "z_value": -9.96400000000002,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "Generate a FREE API key at the [LTX Console](https://console.ltx.video/). Text encoding is free; video generation API usage is paid. [Read more](https://ltx.io/model/model-blog/ltx-2-better-control-for-real-workflows)."
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Intricate",
+      "uuid": "df414c2b279f4d7589a2593a3d10c1c9",
+      "x": 7449.856824123644,
+      "y": 4001.9358453842187,
+      "width": 300.0,
+      "height": 131.0,
+      "z_value": -9.96500000000002,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "An LTX API key is required in API-only mode, but optional on Windows/Linux local mode if you enable the Local Text Encoder."
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "All Glory",
+      "uuid": "6235c84db4c54d79849cc2ab27e52086",
+      "x": 2725.7395218413817,
+      "y": 1049.3934074461533,
+      "width": 300.0,
+      "height": 116.0,
+      "z_value": -9.986000000000008,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "In API-only mode, available resolutions/durations may be limited to what the API supports."
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Evolve",
+      "uuid": "a160c3cb1bfd40aeb4ff33dbc67b47d1",
+      "x": 4995.961339941299,
+      "y": 2189.2214261731933,
+      "width": 300.0,
+      "height": 116.0,
+      "z_value": -9.975000000000014,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "LTX Desktop stores app data (settings, models, logs) in:"
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Delicate",
+      "uuid": "092aef0d61bc4810a950c69e2ec6a870",
+      "x": 6082.416292724712,
+      "y": 3005.311794839173,
+      "width": 300.0,
+      "height": 116.0,
+      "z_value": -9.973000000000015,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "Model weights are downloaded into the `models/` subfolder (this can be large and may take time)."
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Sweet",
+      "uuid": "9c08bdc5621f4b94a140fdb686c96f03",
+      "x": 2179.0417672045814,
+      "y": 1006.6973132090097,
+      "width": 300.0,
+      "height": 101.0,
+      "z_value": -9.988000000000007,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "## Local vs API mode"
+    },
+    {
+      "node_id": 0,
+      "node_type": "claude_response",
+      "title": "Response",
+      "uuid": "e8754270dbd94d68a4b48301a62c2417",
+      "x": -999999.0,
+      "y": -999999.0,
+      "width": 420.0,
+      "height": 316.0,
+      "z_value": 0.0,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "label": "Good \u2014 `source_path` is the right persistent identifier. Now I need to:\n\n1. Save `preview_pinned` and `preview_pinned_path` when pin state changes\n2. On session load, find the matching `ImageNode` and restore the pin",
+      "depth_front": false,
+      "node_tint": ""
+    },
+    {
+      "node_id": 0,
+      "node_type": "image",
+      "title": "Image",
+      "uuid": "404c4a9af79e4c13badef6423d850681",
+      "x": 2069.294117647059,
+      "y": -815.9754467817206,
+      "width": 120.0,
+      "height": 222.10055830243942,
+      "z_value": 0.0,
+      "ports_visible": false,
+      "shelf_visible": false,
+      "image_b64": "",
+      "cache_key": "a38d92b0566c59c0d5b3fc86fb96dbc78a255fdf710461296fe337610a0d17ac",
+      "caption": "Ethereal figure with heart head",
+      "source_path": "C:\\Users\\thisg\\Desktop\\A Charm in the shape of an Expressed Emotion\\Images\\downloadedImage (3).png",
+      "source_size": 251694,
+      "source_mtime": 1771066326.142367,
+      "show_border": true,
+      "depth_front": false
     },
     {
       "node_id": 0,
@@ -797,22 +1121,6 @@
       "ports_visible": false,
       "shelf_visible": false,
       "label": "Theme that hotloads between a family of apps",
-      "depth_front": false,
-      "node_tint": ""
-    },
-    {
-      "node_id": 0,
-      "node_type": "about",
-      "title": "We watch response nodes spiral outward to find their own space",
-      "uuid": "86def865afba4bb28cc541f9757f14c2",
-      "x": -1297.8938478623134,
-      "y": -362.83191839667353,
-      "width": 645.8309054511752,
-      "height": 30.765007286011297,
-      "z_value": 0.0,
-      "ports_visible": false,
-      "shelf_visible": false,
-      "label": "We watch response nodes spiral outward to find their own space",
       "depth_front": false,
       "node_tint": ""
     },
@@ -835,6 +1143,22 @@
     {
       "node_id": 0,
       "node_type": "about",
+      "title": "We watch response nodes spiral outward to find their own space",
+      "uuid": "86def865afba4bb28cc541f9757f14c2",
+      "x": -1297.8938478623134,
+      "y": -362.83191839667353,
+      "width": 645.8309054511752,
+      "height": 30.765007286011297,
+      "z_value": 0.0,
+      "ports_visible": false,
+      "shelf_visible": false,
+      "label": "We watch response nodes spiral outward to find their own space",
+      "depth_front": false,
+      "node_tint": ""
+    },
+    {
+      "node_id": 0,
+      "node_type": "about",
       "title": "Note",
       "uuid": "e5f7d7e4d6e8409190f1d65f99d26b22",
       "x": 1245.9083718527545,
@@ -847,6 +1171,20 @@
       "label": "Elegant",
       "depth_front": true,
       "node_tint": ""
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Beautiful",
+      "uuid": "22010b6b89464c0f844af7e71193badb",
+      "x": -467.53631050383126,
+      "y": -61.058499818130116,
+      "width": 296.78578813808247,
+      "height": 121.91368482620734,
+      "z_value": 0.0,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "And then it all just kinda fell into place, weeks of nit and grit just so that I could sit here and write in gigantic immersive letters that I love you "
     },
     {
       "node_id": 0,
@@ -887,31 +1225,17 @@
     },
     {
       "node_id": 0,
-      "node_type": "warm",
-      "title": "Beautiful",
-      "uuid": "22010b6b89464c0f844af7e71193badb",
-      "x": -467.53631050383126,
-      "y": -61.058499818130116,
-      "width": 296.78578813808247,
-      "height": 121.91368482620734,
-      "z_value": 0.0,
-      "ports_visible": false,
-      "shelf_visible": true,
-      "body_text": "And then it all just kinda fell into place, weeks of nit and grit just so that I could sit here and write in gigantic immersive letters that I love you "
-    },
-    {
-      "node_id": 0,
       "node_type": "claude_response",
       "title": "Response",
-      "uuid": "7fdec9139eb64df2ac93708b0e6e7c23",
+      "uuid": "709f72ee0fee4d32b84e93c33db397db",
       "x": -999999.0,
       "y": -999999.0,
       "width": 420.0,
-      "height": 204.0,
+      "height": 596.0,
       "z_value": 0.0,
       "ports_visible": false,
       "shelf_visible": true,
-      "label": "`int()` first, then `// 2`, plus a `max(1, ...)` guard so it can't be zero on a degenerate node. The spiral search will now run correctly.",
+      "label": "Done. What persists across restarts:\n\n- `ui.preview_pinned = true/false` \u2014 whether the panel is pinned\n- `ui.preview_pinned_path = \"/abs/path/to/image.jpg\"` \u2014 which image was pinned, matched by `source_path`\n\nOn startup, after the session loads, `_restore_pinned_preview` walks the scene, finds the `ImageNode` with the matching path, loads its pixmap into the panel, and silently re-engages the pin button (via `blockSignals` so it doesn't re-trigger the save unnecessarily). If the image node is no longer on the canvas the pin simply doesn't restore.",
       "depth_front": false,
       "node_tint": ""
     },
@@ -935,15 +1259,15 @@
       "node_id": 0,
       "node_type": "claude_response",
       "title": "Response",
-      "uuid": "709f72ee0fee4d32b84e93c33db397db",
+      "uuid": "7fdec9139eb64df2ac93708b0e6e7c23",
       "x": -999999.0,
       "y": -999999.0,
       "width": 420.0,
-      "height": 596.0,
+      "height": 204.0,
       "z_value": 0.0,
       "ports_visible": false,
       "shelf_visible": true,
-      "label": "Done. What persists across restarts:\n\n- `ui.preview_pinned = true/false` \u2014 whether the panel is pinned\n- `ui.preview_pinned_path = \"/abs/path/to/image.jpg\"` \u2014 which image was pinned, matched by `source_path`\n\nOn startup, after the session loads, `_restore_pinned_preview` walks the scene, finds the `ImageNode` with the matching path, loads its pixmap into the panel, and silently re-engages the pin button (via `blockSignals` so it doesn't re-trigger the save unnecessarily). If the image node is no longer on the canvas the pin simply doesn't restore.",
+      "label": "`int()` first, then `// 2`, plus a `max(1, ...)` guard so it can't be zero on a degenerate node. The spiral search will now run correctly.",
       "depth_front": false,
       "node_tint": ""
     },
@@ -1030,22 +1354,6 @@
     {
       "node_id": 0,
       "node_type": "about",
-      "title": "Floats inside of VR with butterflies flying across the nodes",
-      "uuid": "c3db5d86fc45488fbd0e9368353b0682",
-      "x": -1080.9651724476244,
-      "y": -274.05883027777736,
-      "width": 625.2825556284404,
-      "height": 28.56152363554748,
-      "z_value": 0.0,
-      "ports_visible": false,
-      "shelf_visible": false,
-      "label": "Floats inside of VR with butterflies flying across the nodes",
-      "depth_front": false,
-      "node_tint": ""
-    },
-    {
-      "node_id": 0,
-      "node_type": "about",
       "title": "Interactive translucency that lets us operate other apps through the canvas",
       "uuid": "d2a0ff30c5df45b4bbb474f7b7512c49",
       "x": -1394.0541948943096,
@@ -1072,6 +1380,22 @@
       "ports_visible": false,
       "shelf_visible": true,
       "label": "Clear picture. I'll:\n1. Save `preview_pinned` + `preview_pinned_path` when pin toggles\n2. Add `_restore_pinned_preview()` called after session loads (deferred so nodes are in the scene)\n3. Clear the saved pin when unpinning",
+      "depth_front": false,
+      "node_tint": ""
+    },
+    {
+      "node_id": 0,
+      "node_type": "about",
+      "title": "Floats inside of VR with butterflies flying across the nodes",
+      "uuid": "c3db5d86fc45488fbd0e9368353b0682",
+      "x": -1080.9651724476244,
+      "y": -274.05883027777736,
+      "width": 625.2825556284404,
+      "height": 28.56152363554748,
+      "z_value": 0.0,
+      "ports_visible": false,
+      "shelf_visible": false,
+      "label": "Floats inside of VR with butterflies flying across the nodes",
       "depth_front": false,
       "node_tint": ""
     },
@@ -1109,482 +1433,387 @@
     },
     {
       "node_id": 0,
-      "node_type": "image",
-      "title": "Image",
-      "uuid": "404c4a9af79e4c13badef6423d850681",
-      "x": 2069.294117647059,
-      "y": -815.9754467817206,
-      "width": 120.0,
-      "height": 222.10055830243942,
-      "z_value": 0.0,
-      "ports_visible": false,
-      "shelf_visible": false,
-      "image_b64": "",
-      "cache_key": "a38d92b0566c59c0d5b3fc86fb96dbc78a255fdf710461296fe337610a0d17ac",
-      "caption": "Ethereal figure with heart head",
-      "source_path": "C:\\Users\\thisg\\Desktop\\A Charm in the shape of an Expressed Emotion\\Images\\downloadedImage (3).png",
-      "source_size": 251694,
-      "source_mtime": 1771066326.142367,
-      "show_border": true,
-      "depth_front": false
-    },
-    {
-      "node_id": 0,
-      "node_type": "claude_response",
-      "title": "Response",
-      "uuid": "e8754270dbd94d68a4b48301a62c2417",
-      "x": -999999.0,
-      "y": -999999.0,
-      "width": 420.0,
-      "height": 316.0,
-      "z_value": 0.0,
+      "node_type": "warm",
+      "title": "--- name: curator-low-zoom-recognition description: Why",
+      "uuid": "ef05f78c90084f80936c9820a93476be",
+      "x": -1902.538268731886,
+      "y": 2552.4300042375676,
+      "width": 565.0,
+      "height": 206.0,
+      "z_value": -9.923000000000043,
       "ports_visible": false,
       "shelf_visible": true,
-      "label": "Good \u2014 `source_path` is the right persistent identifier. Now I need to:\n\n1. Save `preview_pinned` and `preview_pinned_path` when pin state changes\n2. On session load, find the matching `ImageNode` and restore the pin",
-      "depth_front": false,
-      "node_tint": ""
-    },
-    {
-      "node_id": 0,
-      "node_type": "image",
-      "title": "Image",
-      "uuid": "d2759a3e3b7a434ca41af41ea7e3c63d",
-      "x": 2049.235294117647,
-      "y": -263.62250560524984,
-      "width": 120.0,
-      "height": 229.0,
-      "z_value": 0.0,
-      "ports_visible": false,
-      "shelf_visible": false,
-      "image_b64": "",
-      "cache_key": "f7c038d68bd711255cf8ee823d69c77aac5310845498a5e0503af925cec47034",
-      "caption": "Woman silhouette with heart shape",
-      "source_path": "C:\\Users\\thisg\\Desktop\\A Charm in the shape of an Expressed Emotion\\Images\\downloadedImage (1).png",
-      "source_size": 214207,
-      "source_mtime": 1771066247.9638052,
-      "show_border": true,
-      "depth_front": false
-    },
-    {
-      "node_id": 0,
-      "node_type": "git",
-      "title": "Git Status",
-      "uuid": "140b76431f5149d5afb3b491660e8920",
-      "x": -707.4456452008944,
-      "y": 183.50789880097363,
-      "width": 363.5584068560326,
-      "height": 252.0,
-      "z_value": 0.0,
-      "ports_visible": false,
-      "shelf_visible": true,
-      "depth_front": false,
-      "node_tint": ""
+      "body_text": "  Intricate downsamples node content even at 4x4 px \u2014 the curator-as-viewer reads colour signatures of nodes they placed; content fidelity is not the goal at aerial view type: project originSessionId: 859c57a8-215d-4d36-aea8-66cb75fdf412 hook: | - [Curator recognition at low zoom](project_curator_low_zoom_recognition.md) \u2014 at 4\u00d74px the placer reads colour signatures; downsampling is a feature, not degradation --- At low zoom (down to ~4x4 px per node), Intricate keeps rendering downsampled node content rather than swapping in generic placeholders. The user navigates by colour/silhouette signature (\"the pink one\", \"the beige one\") because they placed the node there themselves."
     },
     {
       "node_id": 0,
       "node_type": "warm",
-      "title": "Endless Potential",
-      "uuid": "6c758e51f28f415aaab29e2f4df1832a",
-      "x": 7650.954172668716,
-      "y": 4558.863566449706,
+      "title": "How to apply",
+      "uuid": "0a6d5a024f4b4607bb25e9baf23068db",
+      "x": -231.18719212962844,
+      "y": 1770.2868897830406,
       "width": 300.0,
-      "height": 101.0,
-      "z_value": -9.967000000000018,
+      "height": 146.0,
+      "z_value": -9.924000000000042,
       "ports_visible": false,
       "shelf_visible": true,
-      "body_text": "The LTX API is used for:"
+      "body_text": "  When a \"Claude\" reference is ambiguous, a quick \"which Claude?\" beats\nacting on the wrong one. Don't resolve it by assumption."
     },
     {
       "node_id": 0,
       "node_type": "warm",
-      "title": "Becoming Yours",
-      "uuid": "1c9bf303cca94f6ba76ecdd547c350f9",
-      "x": 7913.6723717006935,
-      "y": 4225.353725954641,
-      "width": 300.0,
-      "height": 176.0,
-      "z_value": -9.966000000000019,
-      "ports_visible": false,
-      "shelf_visible": true,
-      "body_text": "- **Cloud text encoding and prompt enhancement** \u2014 **FREE**; text encoding is highly recommended to speed up inference and save memory\n- API-based video generations (required on macOS and on unsupported Windows hardware) \u2014 paid\n- Retake \u2014 paid"
-    },
-    {
-      "node_id": 0,
-      "node_type": "warm",
-      "title": "Becoming Yours",
-      "uuid": "42c01d506845493e921e1e77387ae35a",
-      "x": 7919.837484094808,
-      "y": 3966.09380989531,
-      "width": 300.0,
-      "height": 161.0,
-      "z_value": -9.96400000000002,
-      "ports_visible": false,
-      "shelf_visible": true,
-      "body_text": "Generate a FREE API key at the [LTX Console](https://console.ltx.video/). Text encoding is free; video generation API usage is paid. [Read more](https://ltx.io/model/model-blog/ltx-2-better-control-for-real-workflows)."
-    },
-    {
-      "node_id": 0,
-      "node_type": "warm",
-      "title": "Intricate",
-      "uuid": "df414c2b279f4d7589a2593a3d10c1c9",
-      "x": 7449.856824123644,
-      "y": 4001.9358453842187,
-      "width": 300.0,
-      "height": 131.0,
-      "z_value": -9.96500000000002,
-      "ports_visible": false,
-      "shelf_visible": true,
-      "body_text": "An LTX API key is required in API-only mode, but optional on Windows/Linux local mode if you enable the Local Text Encoder."
-    },
-    {
-      "node_id": 0,
-      "node_type": "warm",
-      "title": "Elegant",
-      "uuid": "e2154536ca1b4a82950f1f097e889eab",
-      "x": 1466.802210956204,
-      "y": 888.1564149005349,
-      "width": 300.0,
-      "height": 176.0,
-      "z_value": -9.989000000000006,
-      "ports_visible": false,
-      "shelf_visible": true,
-      "body_text": "- Text-to-video generation\n- Image-to-video generation\n- Audio-to-video generation\n- Video edit generation (Retake)\n- Video Editor Interface\n- Video Editing Projects"
-    },
-    {
-      "node_id": 0,
-      "node_type": "warm",
-      "title": "All Glory",
-      "uuid": "6235c84db4c54d79849cc2ab27e52086",
-      "x": 2725.7395218413817,
-      "y": 1049.3934074461533,
-      "width": 300.0,
-      "height": 116.0,
-      "z_value": -9.986000000000008,
-      "ports_visible": false,
-      "shelf_visible": true,
-      "body_text": "In API-only mode, available resolutions/durations may be limited to what the API supports."
-    },
-    {
-      "node_id": 0,
-      "node_type": "warm",
-      "title": "Sweet",
-      "uuid": "9c08bdc5621f4b94a140fdb686c96f03",
-      "x": 2179.0417672045814,
-      "y": 1006.6973132090097,
-      "width": 300.0,
-      "height": 101.0,
-      "z_value": -9.988000000000007,
-      "ports_visible": false,
-      "shelf_visible": true,
-      "body_text": "## Local vs API mode"
-    },
-    {
-      "node_id": 0,
-      "node_type": "warm",
-      "title": "Evolve",
-      "uuid": "a160c3cb1bfd40aeb4ff33dbc67b47d1",
-      "x": 4995.961339941299,
-      "y": 2189.2214261731933,
-      "width": 300.0,
-      "height": 116.0,
-      "z_value": -9.975000000000014,
-      "ports_visible": false,
-      "shelf_visible": true,
-      "body_text": "LTX Desktop stores app data (settings, models, logs) in:"
-    },
-    {
-      "node_id": 0,
-      "node_type": "warm",
-      "title": "Delicate",
-      "uuid": "092aef0d61bc4810a950c69e2ec6a870",
-      "x": 6082.416292724712,
-      "y": 3005.311794839173,
-      "width": 300.0,
-      "height": 116.0,
-      "z_value": -9.973000000000015,
-      "ports_visible": false,
-      "shelf_visible": true,
-      "body_text": "Model weights are downloaded into the `models/` subfolder (this can be large and may take time)."
-    },
-    {
-      "node_id": 0,
-      "node_type": "warm",
-      "title": "Sweet",
-      "uuid": "e08d161510e047078c6639a386064287",
-      "x": 6270.564988157874,
-      "y": 3220.732740229095,
-      "width": 300.0,
-      "height": 131.0,
-      "z_value": -9.972000000000016,
-      "ports_visible": false,
-      "shelf_visible": true,
-      "body_text": "On first launch you may be prompted to review/accept model license terms (license text is fetched from Hugging Face; requires internet)."
-    },
-    {
-      "node_id": 0,
-      "node_type": "warm",
-      "title": "Delicate",
-      "uuid": "9617ed795c6f4f668807eb9badab1e39",
-      "x": 6625.52776701575,
-      "y": 3404.739045464637,
-      "width": 300.0,
-      "height": 116.0,
-      "z_value": -9.971000000000016,
-      "ports_visible": false,
-      "shelf_visible": true,
-      "body_text": "Text encoding: to generate videos you must configure text encoding:"
-    },
-    {
-      "node_id": 0,
-      "node_type": "warm",
-      "title": "Practical and pleasurable",
-      "uuid": "f6b5030ab894417f8001cc28d44e45fe",
-      "x": 6469.3805826850385,
-      "y": 4107.430195809584,
+      "title": "How to apply",
+      "uuid": "a79ae447dfde42d083fdcdb643cab5e9",
+      "x": -1540.6961019150524,
+      "y": 2251.971622642637,
       "width": 300.0,
       "height": 251.0,
-      "z_value": -9.970000000000017,
+      "z_value": -9.921000000000044,
       "ports_visible": false,
       "shelf_visible": true,
-      "body_text": "- **LTX API key** (cloud text encoding) \u2014 **text encoding via the API is completely FREE** and highly recommended to speed up inference and save memory. Generate a free API key at the [LTX Console](https://console.ltx.video/). [Read more](https://ltx.io/model/model-blog/ltx-2-better-control-for-real-workflows).\n- **Local Text Encoder** (extra download; enables fully-local operation on supported Windows hardware) \u2014 if you don't wish to generate an API key, you can encode text locally via the settings menu."
+      "body_text": "  When tempted to drop visual content at small zoom in favour of placeholders or generic markers, don't. Aerial-view downsampling is the feature, not degradation \u2014 it's how 1000+ node canvases stay navigable. Applies to future LOD decisions: preserve colour/shape signatures over content detail. Sibling frames: visual analogue of the cow principle (output reflects placer's input shape), sharper edge of gallery-not-trench and spatial-DAW. Distinct from pulse-vibrance \u2014 that is about always-on liveliness; this is about identity-through-signature regardless of zoom."
     },
     {
       "node_id": 0,
       "node_type": "warm",
-      "title": "Accurate",
-      "uuid": "bd23f10f2d3b4111ae4800b056369433",
-      "x": 6950.923668152818,
-      "y": 4312.849529347785,
-      "width": 300.0,
-      "height": 101.0,
-      "z_value": -9.969000000000017,
+      "title": "--- name: kitchen-catching-up description: When the working",
+      "uuid": "17cc871145ee421c82e682eff7a3ed62",
+      "x": -2286.6691348602553,
+      "y": 3373.456965358083,
+      "width": 603.0,
+      "height": 176.0,
+      "z_value": -9.920000000000044,
       "ports_visible": false,
       "shelf_visible": true,
-      "body_text": "## API keys, cost, and privacy"
+      "body_text": "Tools get faster (Opus model upgrades, infrastructure improvements), the user's response is to recalibrate ambition upward \u2014 not to coast at the previous pace. The focal list staying full is a calibration signal; an empty list means ambition needs raising, not that work caught up. type: feedback originSessionId: 577b2536-b9fa-42af-b76a-e1c926697add hook: | - [Tool capability \u2192 ambition](feedback_kitchen_catching_up.md) \u2014 upgrades raise ambition, not lower load; empty focal list = recalibration not victory --- User's articulation, 2026-05-02 (round 4):"
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Why",
+      "uuid": "01f868b956474041b3438f0cdcddd2cf",
+      "x": -1944.4980627593268,
+      "y": 2254.7861542430574,
+      "width": 300.0,
+      "height": 236.0,
+      "z_value": -9.922000000000043,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "  This inverts the general-purpose assumption (Windows Explorer at small-icon view, generic image viewers, etc.) that small thumbnails are unreadable noise. That assumption holds when the viewer did not place the files. In Intricate the curator IS the viewer \u2014 silhouette + colour carries identity even when individual content is illegible. User said it verbatim on 2026-05-06: \"it always reads fine given the person on this side is the one that put them there in the first place.\""
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "> \"in the first day of testing Opus 4.7 [...] our workflow",
+      "uuid": "e4e2d052d7bc4349978843261d677727",
+      "x": -1561.930156137329,
+      "y": 3498.0258570495967,
+      "width": 594.0,
+      "height": 146.0,
+      "z_value": -9.918000000000045,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "  Changed drastically between Opus 4.6 and 4.7, the moment 4.7 showed up, it caught up with the flow and the entire list emptied two times in the same day, hence the 'I had to go into the actual backlog', and recalibrate how we can go faster, its noted in the logs as 'the most productive kitchen in the world is catching up to all the orders, we need to go faster', and that's our current workflow.\""
+    },
+    {
+      "node_id": 0,
+      "node_type": "about",
+      "title": "The principle",
+      "uuid": "d885d5c20b1c43f2b51597b10c797981",
+      "x": -989.600854524229,
+      "y": 3069.6833474693417,
+      "width": 154.0,
+      "height": 29.0,
+      "z_value": -9.916000000000047,
+      "ports_visible": false,
+      "shelf_visible": false,
+      "label": "The principle",
+      "depth_front": false,
+      "node_tint": ""
+    },
+    {
+      "node_id": 0,
+      "node_type": "about",
+      "title": "User's logged kitchen metaphor",
+      "uuid": "93bb263bba6c46cfab4f510ddef5f486",
+      "x": -219.79983641017395,
+      "y": 2707.6854267776707,
+      "width": 318.0,
+      "height": 29.0,
+      "z_value": -9.914000000000048,
+      "ports_visible": false,
+      "shelf_visible": false,
+      "label": "User's logged kitchen metaphor",
+      "depth_front": false,
+      "node_tint": ""
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Tool capability changes are ambition triggers",
+      "uuid": "45ec62a6a06d4d038ccfbd99644c05ac",
+      "x": -723.726357845522,
+      "y": 2854.774187626688,
+      "width": 468.0,
+      "height": 161.0,
+      "z_value": -9.915000000000047,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "  Not relaxation triggers. When the working pipeline gets faster \u2014 better model, better infrastructure, better feedback loop \u2014 the right response is to expand what gets attempted, not to do the previous workload more comfortably. The focal list is the conveyor-belt scale \u2014 if it empties, the throughput exceeded the ambition; the answer is to raise ambition, not to celebrate the catch-up."
+    },
+    {
+      "node_id": 0,
+      "node_type": "about",
+      "title": "How to apply",
+      "uuid": "9771c62270944ee3bb73d2858b9632b8",
+      "x": 19.72630668790346,
+      "y": 2243.894937298139,
+      "width": 144.0,
+      "height": 29.0,
+      "z_value": -9.91100000000005,
+      "ports_visible": false,
+      "shelf_visible": false,
+      "label": "How to apply",
+      "depth_front": false,
+      "node_tint": ""
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "The empty-list day during Opus 4.7's debut wasn't framed as",
+      "uuid": "909d31803e6a400d863ed405848abd8c",
+      "x": -32.911489919196384,
+      "y": 2311.9217869427957,
+      "width": 603.0,
+      "height": 116.0,
+      "z_value": -9.912000000000049,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "  \"We did it\" \u2014 it was framed as \"we're outrunning our own ambition, recalibrate.\" A backlog dive followed, ambition expanded, throughput climbed back to \"list always populated.\" That's the operating state."
+    },
+    {
+      "node_id": 0,
+      "node_type": "about",
+      "title": "Connects to",
+      "uuid": "ca0cd9319e234ee087aac15d4369da10",
+      "x": 435.78184781533326,
+      "y": 1646.6630183283933,
+      "width": 134.0,
+      "height": 29.0,
+      "z_value": -9.90900000000005,
+      "ports_visible": false,
+      "shelf_visible": false,
+      "label": "Connects to",
+      "depth_front": false,
+      "node_tint": ""
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "Don't propose \"let's slow down\" after a productive stretch",
+      "uuid": "38fd1a34b3294f40accdb4f1aadbe3b4",
+      "x": 197.5775120638566,
+      "y": 1843.1972080663038,
+      "width": 594.0,
+      "height": 296.0,
+      "z_value": -9.91000000000005,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "  The right framing is \"what's the next harder thing.\" Productivity gains are inputs to ambition, not outputs to relax into.\n- When a model upgrade lands (or any tool/infra step-up): expect the user to want a harder problem next, not the same problem with more breathing room. The next item from the focal list will tend to be more substantial, not less.\n- Empty-focal-list moments are diagnostic, not celebratory. If we ever ship the focal list to empty in a session, the appropriate response is \"we're clearly running ahead of the backlog feed; what's the next ambition tier?\" \u2014 not \"great work, take the rest of the day off.\"\n- Feedback-loop speed compounds. The tighter our turn-around (this conversation, the proofreader, the 25M-token throughput), the faster the user can spec, build, and revise. Each capability boost multiplies through that loop.\n- \"Disorder is a trauma symptom\" \u2014 empty lists, idle periods, drift. The user's stance is that a healthy working state has the focal list always populated and turning over. The Hansen-ball mission justifies that intensity; the proactive-procrastination memory describes how rest fits in (chosen, from ahead, not from drift)."
+    },
+    {
+      "node_id": 0,
+      "node_type": "warm",
+      "title": "- feedback_perf_as_expressive_budget: the",
+      "uuid": "f9abcfe8740b4d76a9ed6f85d81e624a",
+      "x": -82.7074040600034,
+      "y": 1519.5466505486331,
+      "width": 429.0,
+      "height": 221.0,
+      "z_value": -9.908000000000051,
+      "ports_visible": false,
+      "shelf_visible": true,
+      "body_text": "  Optimize-first-spend-later workflow. Same idea at the model level: better capability gets spent on bigger ambition, not on the same ambition at lower load. - feedback_raise_the_ceiling \u2014 capability boosts raise the ceiling; the kitchen metaphor is the calibration mechanism for what happens once the ceiling is up. - feedback_proactive_procrastination \u2014 chosen rest is fine; drift is the failure mode. The \"list never runs empty unless something is off\" rule is the same principle on the system level. - project_hansen_ball \u2014 the underlying why. The 30k-page work demands a kitchen running flat-out; capability gains directly enable bigger creative spend on the writing."
     },
     {
       "node_id": 0,
       "node_type": "about",
       "title": "Note",
-      "uuid": "26ed93cb539e401abf55d9a23590049b",
-      "x": -291.7271904302197,
-      "y": 486.38171788367254,
-      "width": 495.0,
+      "uuid": "b347c9691df04c78aa03ed9eda66b808",
+      "x": 322.1128963940637,
+      "y": 1390.209005310924,
+      "width": 67.0,
       "height": 29.0,
-      "z_value": -9.998000000000001,
+      "z_value": -9.907000000000052,
       "ports_visible": false,
       "shelf_visible": false,
-      "label": "\u2b07 cli-printing-press \u2014 pulled 81 new commit(s)",
+      "label": "Note",
       "depth_front": false,
       "node_tint": ""
     },
     {
       "node_id": 0,
       "node_type": "warm",
-      "title": "Golden Hour",
-      "uuid": "2b9fe4fe60864d049196aff9e7ad0445",
-      "x": 1678.4552889138918,
-      "y": 1138.2582300518545,
-      "width": 300.0,
-      "height": 146.0,
-      "z_value": -9.995000000000003,
+      "title": "The Opus 4.6 \u2192 4.7 transition produced a measurable",
+      "uuid": "7d20480de3094f809b6378bb5a10ce1e",
+      "x": 605.8099495411383,
+      "y": 1303.9301439928063,
+      "width": 533.0,
+      "height": 161.0,
+      "z_value": -9.906000000000052,
       "ports_visible": false,
       "shelf_visible": true,
-      "body_text": "LTX Desktop is an open-source desktop app for generating videos with LTX models \u2014 locally on supported Windows/Linux NVIDIA GPUs, with an API mode for unsupported hardware and macOS."
+      "body_text": "  Workflow-shape change for this user (focal list emptying twice in one day, requiring backlog recalibration). They flagged the next model upgrade as something they're looking forward to in the same spirit \u2014 better tools = bigger ambition, not less work. The model identity isn't load-bearing; the principle is that capability and ambition stay coupled rather than ambition decoupling and relaxing as capability rises."
     }
   ],
   "connections": [
     {
-      "start_uuid": "cd1a1aef0ad14384bbe825af7c084214",
-      "end_uuid": "b1eff63eccc34f769c6e52ec8ed15234"
-    },
-    {
-      "start_uuid": "af890d1ed4bb40fd88982bd9e0866256",
-      "end_uuid": "44c59f228f47467ca088c6f3bad4386e"
-    },
-    {
-      "start_uuid": "44c59f228f47467ca088c6f3bad4386e",
-      "end_uuid": "02b7dcec5de64eec85753488502fe075"
-    },
-    {
-      "start_uuid": "b1eff63eccc34f769c6e52ec8ed15234",
-      "end_uuid": "af890d1ed4bb40fd88982bd9e0866256"
-    },
-    {
-      "start_uuid": "02b7dcec5de64eec85753488502fe075",
-      "end_uuid": "64f54632fff14868a2673e790faa6604"
-    },
-    {
-      "start_uuid": "64f54632fff14868a2673e790faa6604",
-      "end_uuid": "a7d0066257b44ae59ec76989cc38dce7"
-    },
-    {
-      "start_uuid": "a7d0066257b44ae59ec76989cc38dce7",
-      "end_uuid": "c0cb2de50e9d4986a57aa533b40e706b"
-    },
-    {
-      "start_uuid": "868cd61edc774bc08468ad74f5a3da5f",
-      "end_uuid": "56a08b02daa346d588b5af32652a744d"
-    },
-    {
-      "start_uuid": "56a08b02daa346d588b5af32652a744d",
-      "end_uuid": "9bc3abf9aa4f4695bffef971521901ae"
-    },
-    {
-      "start_uuid": "42c01d506845493e921e1e77387ae35a",
-      "end_uuid": "868cd61edc774bc08468ad74f5a3da5f"
-    },
-    {
-      "start_uuid": "ace47d433f324add97cb00220379c102",
-      "end_uuid": "cd1a1aef0ad14384bbe825af7c084214"
-    },
-    {
-      "start_uuid": "9bc3abf9aa4f4695bffef971521901ae",
-      "end_uuid": "ace47d433f324add97cb00220379c102"
-    },
-    {
-      "start_uuid": "449df25d540a444390910ebf8b1a3fef",
-      "end_uuid": "fb0b7d3ee2314cff89a2d3e2064e5cbb"
+      "start_uuid": "93bb263bba6c46cfab4f510ddef5f486",
+      "end_uuid": "30e50558ef5144dfa082305f5069227d"
     },
     {
       "start_uuid": "129d889475e74a2e9e652ee6f2500c26",
       "end_uuid": "2d8a3556911449fe8a35ae64a101269b"
     },
     {
-      "start_uuid": "2fde0556ec284785aaa1a7d05500eeb4",
-      "end_uuid": "449df25d540a444390910ebf8b1a3fef"
-    },
-    {
-      "start_uuid": "fb0b7d3ee2314cff89a2d3e2064e5cbb",
-      "end_uuid": "129d889475e74a2e9e652ee6f2500c26"
-    },
-    {
-      "start_uuid": "2d8a3556911449fe8a35ae64a101269b",
-      "end_uuid": "faf460ec40d944d7ac3cd7db06f049c8"
-    },
-    {
-      "start_uuid": "bd23f10f2d3b4111ae4800b056369433",
-      "end_uuid": "6c758e51f28f415aaab29e2f4df1832a"
-    },
-    {
       "start_uuid": "0fa9646d79e74df695695c78cd5da59a",
       "end_uuid": "4bfa76ab90094561a6f3e34f423155b0"
-    },
-    {
-      "start_uuid": "c0cb2de50e9d4986a57aa533b40e706b",
-      "end_uuid": "0fa9646d79e74df695695c78cd5da59a"
-    },
-    {
-      "start_uuid": "8d15761e04fe4526ac6ec12bb28c7009",
-      "end_uuid": "d80e51c9482a41b99896ee493928bcc7"
-    },
-    {
-      "start_uuid": "4bfa76ab90094561a6f3e34f423155b0",
-      "end_uuid": "8d15761e04fe4526ac6ec12bb28c7009"
-    },
-    {
-      "start_uuid": "ab2a7b50a4854e35a7e4169ab70a0ff3",
-      "end_uuid": "db384f4047a34592b44b3bcfd7780471"
-    },
-    {
-      "start_uuid": "d80e51c9482a41b99896ee493928bcc7",
-      "end_uuid": "670a53ca116345d589d4cdc443c1b55f"
-    },
-    {
-      "start_uuid": "670a53ca116345d589d4cdc443c1b55f",
-      "end_uuid": "ab2a7b50a4854e35a7e4169ab70a0ff3"
-    },
-    {
-      "start_uuid": "6854502a14f1446c98ccf480e0c6da8a",
-      "end_uuid": "0e91ebb3bb4945bda1689ac8d353ae54"
-    },
-    {
-      "start_uuid": "db384f4047a34592b44b3bcfd7780471",
-      "end_uuid": "ae20733519ca4233987f665f96334ade"
     },
     {
       "start_uuid": "ae20733519ca4233987f665f96334ade",
       "end_uuid": "b9f1d89685e1462f9a4b1dfd772300e5"
     },
     {
-      "start_uuid": "b9f1d89685e1462f9a4b1dfd772300e5",
-      "end_uuid": "6854502a14f1446c98ccf480e0c6da8a"
-    },
-    {
-      "start_uuid": "cb83c8df4d424ecbaceead25ceccc5b1",
-      "end_uuid": "ac40e19e2f3b4b549c7e7460bdc988f7"
-    },
-    {
-      "start_uuid": "0e91ebb3bb4945bda1689ac8d353ae54",
-      "end_uuid": "5bca9d49d54449c59c66d1dd37470bfa"
-    },
-    {
-      "start_uuid": "5bca9d49d54449c59c66d1dd37470bfa",
-      "end_uuid": "cb83c8df4d424ecbaceead25ceccc5b1"
-    },
-    {
-      "start_uuid": "f5b993d205d249eba5a2afb56c8d47ca",
-      "end_uuid": "2fde0556ec284785aaa1a7d05500eeb4"
-    },
-    {
-      "start_uuid": "ac40e19e2f3b4b549c7e7460bdc988f7",
-      "end_uuid": "fbc3aeabe50b4019a798ca02be112fa7"
-    },
-    {
       "start_uuid": "fbc3aeabe50b4019a798ca02be112fa7",
       "end_uuid": "f2a7725fc39e4a878991ea63134b2bae"
     },
     {
-      "start_uuid": "f2a7725fc39e4a878991ea63134b2bae",
-      "end_uuid": "f5b993d205d249eba5a2afb56c8d47ca"
-    },
-    {
-      "start_uuid": "2b9fe4fe60864d049196aff9e7ad0445",
-      "end_uuid": "e2154536ca1b4a82950f1f097e889eab"
-    },
-    {
-      "start_uuid": "9c08bdc5621f4b94a140fdb686c96f03",
-      "end_uuid": "6235c84db4c54d79849cc2ab27e52086"
-    },
-    {
-      "start_uuid": "6235c84db4c54d79849cc2ab27e52086",
-      "end_uuid": "a160c3cb1bfd40aeb4ff33dbc67b47d1"
-    },
-    {
-      "start_uuid": "a160c3cb1bfd40aeb4ff33dbc67b47d1",
-      "end_uuid": "092aef0d61bc4810a950c69e2ec6a870"
-    },
-    {
-      "start_uuid": "df414c2b279f4d7589a2593a3d10c1c9",
-      "end_uuid": "42c01d506845493e921e1e77387ae35a"
-    },
-    {
-      "start_uuid": "2c792f7025a943039c2bd57d891328ba",
-      "end_uuid": "330a8d49ece843318cb78bc3678b5bb5"
-    },
-    {
-      "start_uuid": "b6b8c9d957eb496e99be3fa08a9310b7",
-      "end_uuid": "043f6cb69b5645e682c952d36362229e"
-    },
-    {
-      "start_uuid": "d2a0ff30c5df45b4bbb474f7b7512c49",
-      "end_uuid": "268a4cf5f6bd479ca5cc7d1615db7c67"
-    },
-    {
-      "start_uuid": "d61c35a454fc4f1888c3b87e065fbb3f",
-      "end_uuid": "178a80cd90644c24b3d00c2f7afa8ce1"
-    },
-    {
-      "start_uuid": "3ea5bcdb9b3140b9a7810f2cee1468d5",
-      "end_uuid": "86def865afba4bb28cc541f9757f14c2"
+      "start_uuid": "4bfa76ab90094561a6f3e34f423155b0",
+      "end_uuid": "8d15761e04fe4526ac6ec12bb28c7009"
     },
     {
       "start_uuid": "f9d2c2f89074402f9efd92a555d6e6ca",
       "end_uuid": "2c792f7025a943039c2bd57d891328ba"
     },
     {
+      "start_uuid": "043f6cb69b5645e682c952d36362229e",
+      "end_uuid": "404c4a9af79e4c13badef6423d850681"
+    },
+    {
+      "start_uuid": "ace47d433f324add97cb00220379c102",
+      "end_uuid": "cd1a1aef0ad14384bbe825af7c084214"
+    },
+    {
+      "start_uuid": "86def865afba4bb28cc541f9757f14c2",
+      "end_uuid": "c3db5d86fc45488fbd0e9368353b0682"
+    },
+    {
+      "start_uuid": "f5b993d205d249eba5a2afb56c8d47ca",
+      "end_uuid": "2fde0556ec284785aaa1a7d05500eeb4"
+    },
+    {
+      "start_uuid": "d2759a3e3b7a434ca41af41ea7e3c63d",
+      "end_uuid": "81cb70c492824161a092cad27eefe49f"
+    },
+    {
+      "start_uuid": "44c59f228f47467ca088c6f3bad4386e",
+      "end_uuid": "02b7dcec5de64eec85753488502fe075"
+    },
+    {
+      "start_uuid": "df414c2b279f4d7589a2593a3d10c1c9",
+      "end_uuid": "42c01d506845493e921e1e77387ae35a"
+    },
+    {
+      "start_uuid": "670a53ca116345d589d4cdc443c1b55f",
+      "end_uuid": "ab2a7b50a4854e35a7e4169ab70a0ff3"
+    },
+    {
+      "start_uuid": "2fde0556ec284785aaa1a7d05500eeb4",
+      "end_uuid": "449df25d540a444390910ebf8b1a3fef"
+    },
+    {
+      "start_uuid": "9c08bdc5621f4b94a140fdb686c96f03",
+      "end_uuid": "6235c84db4c54d79849cc2ab27e52086"
+    },
+    {
       "start_uuid": "330a8d49ece843318cb78bc3678b5bb5",
       "end_uuid": "3ea5bcdb9b3140b9a7810f2cee1468d5"
+    },
+    {
+      "start_uuid": "c3db5d86fc45488fbd0e9368353b0682",
+      "end_uuid": "d2a0ff30c5df45b4bbb474f7b7512c49"
+    },
+    {
+      "start_uuid": "2c81c97920894f45b50417509ddfbe81",
+      "end_uuid": "107cd90a21b84f819369aa44ec43798d"
+    },
+    {
+      "start_uuid": "2b9fe4fe60864d049196aff9e7ad0445",
+      "end_uuid": "e2154536ca1b4a82950f1f097e889eab"
+    },
+    {
+      "start_uuid": "b6b8c9d957eb496e99be3fa08a9310b7",
+      "end_uuid": "56dd74b0307948b78dd809d3ac5ccf5b"
+    },
+    {
+      "start_uuid": "5bca9d49d54449c59c66d1dd37470bfa",
+      "end_uuid": "cb83c8df4d424ecbaceead25ceccc5b1"
+    },
+    {
+      "start_uuid": "cb83c8df4d424ecbaceead25ceccc5b1",
+      "end_uuid": "ac40e19e2f3b4b549c7e7460bdc988f7"
+    },
+    {
+      "start_uuid": "449df25d540a444390910ebf8b1a3fef",
+      "end_uuid": "fb0b7d3ee2314cff89a2d3e2064e5cbb"
+    },
+    {
+      "start_uuid": "b6b8c9d957eb496e99be3fa08a9310b7",
+      "end_uuid": "043f6cb69b5645e682c952d36362229e"
+    },
+    {
+      "start_uuid": "0e91ebb3bb4945bda1689ac8d353ae54",
+      "end_uuid": "5bca9d49d54449c59c66d1dd37470bfa"
+    },
+    {
+      "start_uuid": "d61c35a454fc4f1888c3b87e065fbb3f",
+      "end_uuid": "178a80cd90644c24b3d00c2f7afa8ce1"
+    },
+    {
+      "start_uuid": "af890d1ed4bb40fd88982bd9e0866256",
+      "end_uuid": "44c59f228f47467ca088c6f3bad4386e"
+    },
+    {
+      "start_uuid": "fb0b7d3ee2314cff89a2d3e2064e5cbb",
+      "end_uuid": "129d889475e74a2e9e652ee6f2500c26"
+    },
+    {
+      "start_uuid": "9bc3abf9aa4f4695bffef971521901ae",
+      "end_uuid": "ace47d433f324add97cb00220379c102"
+    },
+    {
+      "start_uuid": "bd23f10f2d3b4111ae4800b056369433",
+      "end_uuid": "6c758e51f28f415aaab29e2f4df1832a"
+    },
+    {
+      "start_uuid": "02b7dcec5de64eec85753488502fe075",
+      "end_uuid": "64f54632fff14868a2673e790faa6604"
+    },
+    {
+      "start_uuid": "a160c3cb1bfd40aeb4ff33dbc67b47d1",
+      "end_uuid": "092aef0d61bc4810a950c69e2ec6a870"
+    },
+    {
+      "start_uuid": "64f54632fff14868a2673e790faa6604",
+      "end_uuid": "a7d0066257b44ae59ec76989cc38dce7"
+    },
+    {
+      "start_uuid": "c0cb2de50e9d4986a57aa533b40e706b",
+      "end_uuid": "0fa9646d79e74df695695c78cd5da59a"
+    },
+    {
+      "start_uuid": "d2a0ff30c5df45b4bbb474f7b7512c49",
+      "end_uuid": "268a4cf5f6bd479ca5cc7d1615db7c67"
     },
     {
       "start_uuid": "404c4a9af79e4c13badef6423d850681",
@@ -1595,52 +1824,104 @@
       "end_uuid": "2c81c97920894f45b50417509ddfbe81"
     },
     {
-      "start_uuid": "043f6cb69b5645e682c952d36362229e",
-      "end_uuid": "404c4a9af79e4c13badef6423d850681"
-    },
-    {
       "start_uuid": "178a80cd90644c24b3d00c2f7afa8ce1",
       "end_uuid": "22010b6b89464c0f844af7e71193badb"
-    },
-    {
-      "start_uuid": "86def865afba4bb28cc541f9757f14c2",
-      "end_uuid": "c3db5d86fc45488fbd0e9368353b0682"
     },
     {
       "start_uuid": "268a4cf5f6bd479ca5cc7d1615db7c67",
       "end_uuid": "d61c35a454fc4f1888c3b87e065fbb3f"
     },
     {
-      "start_uuid": "c3db5d86fc45488fbd0e9368353b0682",
-      "end_uuid": "d2a0ff30c5df45b4bbb474f7b7512c49"
+      "start_uuid": "d80e51c9482a41b99896ee493928bcc7",
+      "end_uuid": "670a53ca116345d589d4cdc443c1b55f"
+    },
+    {
+      "start_uuid": "6235c84db4c54d79849cc2ab27e52086",
+      "end_uuid": "a160c3cb1bfd40aeb4ff33dbc67b47d1"
+    },
+    {
+      "start_uuid": "2d8a3556911449fe8a35ae64a101269b",
+      "end_uuid": "faf460ec40d944d7ac3cd7db06f049c8"
+    },
+    {
+      "start_uuid": "868cd61edc774bc08468ad74f5a3da5f",
+      "end_uuid": "56a08b02daa346d588b5af32652a744d"
+    },
+    {
+      "start_uuid": "6854502a14f1446c98ccf480e0c6da8a",
+      "end_uuid": "0e91ebb3bb4945bda1689ac8d353ae54"
+    },
+    {
+      "start_uuid": "f2a7725fc39e4a878991ea63134b2bae",
+      "end_uuid": "f5b993d205d249eba5a2afb56c8d47ca"
+    },
+    {
+      "start_uuid": "db384f4047a34592b44b3bcfd7780471",
+      "end_uuid": "ae20733519ca4233987f665f96334ade"
+    },
+    {
+      "start_uuid": "3ea5bcdb9b3140b9a7810f2cee1468d5",
+      "end_uuid": "86def865afba4bb28cc541f9757f14c2"
     },
     {
       "start_uuid": "15185011d72d406883f39b66cc3d0a63",
       "end_uuid": "e5f7d7e4d6e8409190f1d65f99d26b22"
     },
     {
-      "start_uuid": "d2759a3e3b7a434ca41af41ea7e3c63d",
-      "end_uuid": "81cb70c492824161a092cad27eefe49f"
+      "start_uuid": "b9f1d89685e1462f9a4b1dfd772300e5",
+      "end_uuid": "6854502a14f1446c98ccf480e0c6da8a"
     },
     {
-      "start_uuid": "2c81c97920894f45b50417509ddfbe81",
-      "end_uuid": "107cd90a21b84f819369aa44ec43798d"
+      "start_uuid": "42c01d506845493e921e1e77387ae35a",
+      "end_uuid": "868cd61edc774bc08468ad74f5a3da5f"
     },
     {
-      "start_uuid": "b6b8c9d957eb496e99be3fa08a9310b7",
-      "end_uuid": "56dd74b0307948b78dd809d3ac5ccf5b"
+      "start_uuid": "b1eff63eccc34f769c6e52ec8ed15234",
+      "end_uuid": "af890d1ed4bb40fd88982bd9e0866256"
+    },
+    {
+      "start_uuid": "a7d0066257b44ae59ec76989cc38dce7",
+      "end_uuid": "c0cb2de50e9d4986a57aa533b40e706b"
+    },
+    {
+      "start_uuid": "cd1a1aef0ad14384bbe825af7c084214",
+      "end_uuid": "b1eff63eccc34f769c6e52ec8ed15234"
+    },
+    {
+      "start_uuid": "56a08b02daa346d588b5af32652a744d",
+      "end_uuid": "9bc3abf9aa4f4695bffef971521901ae"
+    },
+    {
+      "start_uuid": "8d15761e04fe4526ac6ec12bb28c7009",
+      "end_uuid": "d80e51c9482a41b99896ee493928bcc7"
+    },
+    {
+      "start_uuid": "ab2a7b50a4854e35a7e4169ab70a0ff3",
+      "end_uuid": "db384f4047a34592b44b3bcfd7780471"
+    },
+    {
+      "start_uuid": "ac40e19e2f3b4b549c7e7460bdc988f7",
+      "end_uuid": "fbc3aeabe50b4019a798ca02be112fa7"
+    },
+    {
+      "start_uuid": "2c792f7025a943039c2bd57d891328ba",
+      "end_uuid": "330a8d49ece843318cb78bc3678b5bb5"
+    },
+    {
+      "start_uuid": "1c9bf303cca94f6ba76ecdd547c350f9",
+      "end_uuid": "df414c2b279f4d7589a2593a3d10c1c9"
     },
     {
       "start_uuid": "56dd74b0307948b78dd809d3ac5ccf5b",
       "end_uuid": "d2759a3e3b7a434ca41af41ea7e3c63d"
     },
     {
-      "start_uuid": "6c758e51f28f415aaab29e2f4df1832a",
-      "end_uuid": "1c9bf303cca94f6ba76ecdd547c350f9"
+      "start_uuid": "f6b5030ab894417f8001cc28d44e45fe",
+      "end_uuid": "bd23f10f2d3b4111ae4800b056369433"
     },
     {
-      "start_uuid": "1c9bf303cca94f6ba76ecdd547c350f9",
-      "end_uuid": "df414c2b279f4d7589a2593a3d10c1c9"
+      "start_uuid": "9617ed795c6f4f668807eb9badab1e39",
+      "end_uuid": "f6b5030ab894417f8001cc28d44e45fe"
     },
     {
       "start_uuid": "e2154536ca1b4a82950f1f097e889eab",
@@ -1655,26 +1936,86 @@
       "end_uuid": "9617ed795c6f4f668807eb9badab1e39"
     },
     {
-      "start_uuid": "9617ed795c6f4f668807eb9badab1e39",
-      "end_uuid": "f6b5030ab894417f8001cc28d44e45fe"
+      "start_uuid": "45ec62a6a06d4d038ccfbd99644c05ac",
+      "end_uuid": "93bb263bba6c46cfab4f510ddef5f486"
     },
     {
-      "start_uuid": "f6b5030ab894417f8001cc28d44e45fe",
-      "end_uuid": "bd23f10f2d3b4111ae4800b056369433"
+      "start_uuid": "6c758e51f28f415aaab29e2f4df1832a",
+      "end_uuid": "1c9bf303cca94f6ba76ecdd547c350f9"
     },
     {
-      "start_uuid": "140b76431f5149d5afb3b491660e8920",
-      "end_uuid": "26ed93cb539e401abf55d9a23590049b"
+      "start_uuid": "dbd235f502c0487488211c459e8a2efa",
+      "end_uuid": "a74fbf6b11b241849a962450bdaa4caa"
+    },
+    {
+      "start_uuid": "a74fbf6b11b241849a962450bdaa4caa",
+      "end_uuid": "5da29630c9144c069c52aec9c9176843"
+    },
+    {
+      "start_uuid": "17cc871145ee421c82e682eff7a3ed62",
+      "end_uuid": "e4e2d052d7bc4349978843261d677727"
+    },
+    {
+      "start_uuid": "9da7d4dad0ac441187071d271203aeea",
+      "end_uuid": "0a6d5a024f4b4607bb25e9baf23068db"
+    },
+    {
+      "start_uuid": "5da29630c9144c069c52aec9c9176843",
+      "end_uuid": "9da7d4dad0ac441187071d271203aeea"
+    },
+    {
+      "start_uuid": "01f868b956474041b3438f0cdcddd2cf",
+      "end_uuid": "a79ae447dfde42d083fdcdb643cab5e9"
+    },
+    {
+      "start_uuid": "ef05f78c90084f80936c9820a93476be",
+      "end_uuid": "01f868b956474041b3438f0cdcddd2cf"
+    },
+    {
+      "start_uuid": "d885d5c20b1c43f2b51597b10c797981",
+      "end_uuid": "45ec62a6a06d4d038ccfbd99644c05ac"
+    },
+    {
+      "start_uuid": "e4e2d052d7bc4349978843261d677727",
+      "end_uuid": "d885d5c20b1c43f2b51597b10c797981"
+    },
+    {
+      "start_uuid": "9771c62270944ee3bb73d2858b9632b8",
+      "end_uuid": "38fd1a34b3294f40accdb4f1aadbe3b4"
+    },
+    {
+      "start_uuid": "30e50558ef5144dfa082305f5069227d",
+      "end_uuid": "909d31803e6a400d863ed405848abd8c"
+    },
+    {
+      "start_uuid": "909d31803e6a400d863ed405848abd8c",
+      "end_uuid": "9771c62270944ee3bb73d2858b9632b8"
+    },
+    {
+      "start_uuid": "b347c9691df04c78aa03ed9eda66b808",
+      "end_uuid": "7d20480de3094f809b6378bb5a10ce1e"
+    },
+    {
+      "start_uuid": "ca0cd9319e234ee087aac15d4369da10",
+      "end_uuid": "f9abcfe8740b4d76a9ed6f85d81e624a"
+    },
+    {
+      "start_uuid": "f9abcfe8740b4d76a9ed6f85d81e624a",
+      "end_uuid": "b347c9691df04c78aa03ed9eda66b808"
+    },
+    {
+      "start_uuid": "38fd1a34b3294f40accdb4f1aadbe3b4",
+      "end_uuid": "ca0cd9319e234ee087aac15d4369da10"
     }
   ],
   "viewport": {
-    "camera_x": 9864.087948839118,
-    "camera_y": 4212.644732853846,
-    "camera_zoom": 1.312762017853244
+    "camera_x": 847.514040926327,
+    "camera_y": -1312.7255525217563,
+    "camera_zoom": 0.21710554765427753
   },
   "ui_migrations": [
     "image_border_default_on_v1"
   ],
   "last_browse_dirs": {},
-  "checksum": "9f1b16565ea755a1"
+  "checksum": "e7e93feef48655b8"
 }
