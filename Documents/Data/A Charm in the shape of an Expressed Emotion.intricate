@@ -535,7 +535,7 @@
       "x": -23.090863841001468,
       "y": 914.188291159649,
       "width": 373.37,
-      "height": 292.0,
+      "height": 312.0,
       "z_value": -9.923000000000043,
       "ports_visible": false,
       "shelf_visible": true,
@@ -616,11 +616,11 @@
       "node_type": "warm",
       "title": "Beautiful",
       "uuid": "22010b6b89464c0f844af7e71193badb",
-      "x": -467.53631050383126,
-      "y": -61.058499818130116,
+      "x": -460.1892174635126,
+      "y": -55.81057621790248,
       "width": 296.78578813808247,
       "height": 121.91368482620734,
-      "z_value": 0.0,
+      "z_value": -10.0,
       "ports_visible": false,
       "shelf_visible": true,
       "body_text": "And then it all just kinda fell into place, weeks of nit and grit just so that I could sit here and write in gigantic immersive letters that I love you "
@@ -878,9 +878,9 @@
     }
   ],
   "viewport": {
-    "camera_x": 367.35465201593246,
-    "camera_y": 676.9821444293613,
-    "camera_zoom": 0.9527577725756423
+    "camera_x": -313.45302909344906,
+    "camera_y": -79.2078911840947,
+    "camera_zoom": 4.7949767923662705
   },
   "ui_migrations": [
     "image_border_default_on_v1"
@@ -888,5 +888,5 @@
   "last_browse_dirs": {
     "sticker": "C:\\Users\\thebe\\Desktop\\_asset\\The Majestic\\Polaroid"
   },
-  "checksum": "f76181f42a0d8a69"
+  "checksum": "2d2165f1d28e09e7"
 }
