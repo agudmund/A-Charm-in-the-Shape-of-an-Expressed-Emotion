@@ -704,7 +704,7 @@
       "z_value": -9.916000000000047,
       "ports_visible": false,
       "shelf_visible": true,
-      "source_path": "C:\\Users\\thebe\\Desktop\\The Void and The Noid\\OmniVoice First Contact\\outputs\\There is a quiet kind of magic in building something small and gentle_A_2.wav",
+      "source_path": "C:\\Users\\thebe\\Desktop\\The Void and the Noid\\OmniVoice First Contact\\outputs\\There is a quiet kind of magic in building something small and gentle_A_2.wav",
       "caption": "There is a quiet kind of magic in building something small and gentle_A_2",
       "volume": 50,
       "playback_pos": 0,
@@ -725,7 +725,7 @@
       "z_value": -9.922000000000043,
       "ports_visible": false,
       "shelf_visible": true,
-      "source_path": "C:\\Users\\thebe\\Desktop\\The Void and The Noid\\OmniVoice First Contact\\keepers\\Standard Disclaimer.wav",
+      "source_path": "C:\\Users\\thebe\\Desktop\\The Void and the Noid\\OmniVoice First Contact\\Keepers\\Standard Disclaimer.wav",
       "caption": "Standard Disclaimer",
       "volume": 50,
       "playback_pos": 2048,
@@ -746,7 +746,7 @@
       "z_value": -9.921000000000044,
       "ports_visible": false,
       "shelf_visible": true,
-      "source_path": "C:\\Users\\thebe\\Desktop\\The Void and The Noid\\OmniVoice First Contact\\keepers\\Standard Disclaimer.wav",
+      "source_path": "C:\\Users\\thebe\\Desktop\\The Void and the Noid\\OmniVoice First Contact\\Keepers\\Standard Disclaimer.wav",
       "peaks": [
         0.0015722498064860702,
         0.001375718624331057,
@@ -2930,8 +2930,8 @@
     }
   ],
   "viewport": {
-    "camera_x": 328.33638658504657,
-    "camera_y": 23.02586486665382,
+    "camera_x": 327.9629941818034,
+    "camera_y": 22.4035441945824,
     "camera_zoom": 1.6068886104505502
   },
   "ui_migrations": [
@@ -2940,5 +2940,5 @@
   "last_browse_dirs": {
     "sticker": "C:\\Users\\thebe\\Desktop\\_asset\\The Majestic\\Polaroid"
   },
-  "checksum": "2bf2bba507d852e7"
+  "checksum": "3e693c99cff73193"
 }
